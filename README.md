@@ -31,7 +31,7 @@ gantt
     Alpha Testing :p11, after p10, 4w
 
     section Launch Prep
-    Beta Testing :p12, after p10, 4w
+    Beta Testing :p12, after p11, 4w
     Bugfixing & Finetuning :p13, 2026-02-01, 2w
 
     section Release Candidate
