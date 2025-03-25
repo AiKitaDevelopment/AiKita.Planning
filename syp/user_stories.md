@@ -17,7 +17,7 @@
 | aikMvp02 | 1    | Forms | As a user, I want a well-structured form with validation so I can enter correct data without errors. | Angular form must include inputs for name, email, phone, etc., with validation and error messages. | 2      |
 | aikMvp03 | 1    | Data Processing | As a user I want to submit my form and receive back anonymized data so I can review the result. | A .NET endpoint must accept valid form data and return a JSON object with anonymized fields. Response time must be <1s. | 3      |
 | aikMvp04 | 2    | Data Processing | As a developer I want to apply different anonymization strategies depending on field type. | Email must be hashed, names replaced with initials, and phone numbers masked (e.g. ***-1234). | 2      |
-| aikMvp05a | 1    | Data Management | As a user, I want to save anonymized data and view stored entries so I can manage my records. | Submitting a valid form saves the anonymized object via EF Core to SQLite, and I can see a list of stored records. | 3      |
+| aikMvp05 | 1    | Data Management | As a user, I want to save anonymized data and view stored entries so I can manage my records. | Submitting a valid form saves the anonymized object via EF Core to SQLite, and I can see a list of stored records. | 3      |
 | aikMvp06 | 2    | Export | As a user I want to select a record and export it to JSON so I can use it elsewhere. | JSON download must trigger when I click "Export", and downloaded file must match the saved data structure. | 2      |
 | aikMvp07 | 3    | Export | As a user I want to export multiple records at once. | A checkbox UI allows selecting multiple entries and saving them to a single JSON array. | 2      |
 
