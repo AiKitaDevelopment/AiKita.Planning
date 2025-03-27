@@ -9,6 +9,11 @@
 | aikUs04 | 1    | Child Management | As a teacher, I want to search for a child by name or ID, so I can quickly find their details. | Search results should be returned within 500ms, ranked by relevance. | 3 |
 
 ---
+## Planning and Strategies
+| ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort |
+|---------|------|-----------------|-------------|---------------------------------|--------|
+| aikPlan01 | 1    | Planning & Strategy | As a product manager, I want to create a roadmap to break development into clear milestones. | Milestones and goals are clearly defined. Work focus is dictated by a timeline with concrete deadlines. | 3 |
+| aikPlan02 | 1    | Planning & Strategy | As a product manager, I want to organize and design the project’s workflow to maximize efficiency. | Weekly meetings are set and responsibilities are defined. Responsibility for individual tasks is assigned. | 3 |
 
 ## MVP
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort |
