@@ -3,8 +3,8 @@
 ## Tracking Table
 | Story ID  | EffortEst | Prio | Actual Time | Changes |
 |-----------|-----------|------|-------------|---------|
-| aikPlan01 | 3         | 1    | -           | -       |
-| aikPlan02 | 3         | 1    | -           | -       |
+| aikPlan01 | 3         | 1    | 6h          | 0       |
+| aikPlan02 | 3         | 1    | 8h          | Timeline for meetings has to be adjusted to work demand. Depending on the planned task more frequent meetings are held. |
 | aikUs01   | 5         | 1    | -           | -       |
 | aikUs02   | 2         | 1    | -           | -       |
 | aikUs03   | 5         | 2    | -           | -       |
