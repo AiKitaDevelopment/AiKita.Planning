@@ -13,7 +13,7 @@
 
 ## 🔍 Monitoring & Progress Tracking  
 Following steps are taken in order to keep the Sprint dates:  
-- **📅 Bi-weekly Spring Reviews**  
+- **📅 Bi-weekly Sprint Reviews**  
   - Each team member provides a short update on progress, blockers, and next steps. 
 
 - **📉 Burndown Chart**  
