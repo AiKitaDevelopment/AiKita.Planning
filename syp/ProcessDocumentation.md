@@ -1,5 +1,10 @@
 # Process Documentation
 
+## 🔍 Monitoring & Progress Tracking  
+Following steps are taken in order to keep the Sprint dates:
+**📅 Bi-weekly Stand-up meetings**
+**📉 Burndown Chart**
+
 ## Tracking Table
 | Story ID  | EffortEst | Prio | Actual Time | Changes |
 |-----------|-----------|------|-------------|---------|
