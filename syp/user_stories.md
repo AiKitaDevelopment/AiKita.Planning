@@ -67,13 +67,13 @@
 |-----------|------|-------|-------------|---------------------------------|--------|
 | aikCloud01 | 2   | API   | As a user, I want to log in securely. | Authentication must use JWT with a refresh mechanism. | 3 |
 | aikCloud02 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 5 |
-| aikCloud03 | 1   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 |
+| aikCloud03 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 |
 
 ---
 
 ## Quality Assurance & Performance
 | ID      | Prio | Epic | User Story  | COS (Criteria of Satisfaction)  | Effort |
 |--------|------|------|-------------|---------------------------------|--------|
-| eduQA01 | 2   | QA   | As a QA engineer, I want automated tests. | At least 80% test coverage must be achieved. | 13 |
-| eduQA02 | 1   | QA   | As a QA engineer, I want performance tests. | The app must handle 100 users with <2s response times. | 12 |
-| eduQA03 | 3   | QA   | As a QA engineer, I want usability tests. | Usability tests must be conducted with real users. | 6 |
+| eduQA01 | 2   | QA   | As a QA engineer, I want automated tests. | At least 80% test coverage must be achieved. | 21 |
+| eduQA02 | 1   | QA   | As a QA engineer, I want performance tests. | The app must handle 100 users with <2s response times. | 13 |
+| eduQA03 | 3   | QA   | As a QA engineer, I want usability tests. | Usability tests must be conducted with real users. | 21 |
