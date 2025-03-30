@@ -12,6 +12,8 @@
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort |
 |---------|------|-----------------|-------------|---------------------------------|--------|
 | aikUs01 | 1    | UI/UX            | As a teacher, I want a clean and intuitive user interface, so I can navigate the application easily. | The UI must follow modern design principles and receive at least 80% positive usability feedback. | 8 |
+| aikUs01 | 3    | UI/UX            | As a user I want an accessible UI where I can adjust colors, font size and button size to my needs. | The UI must be adjustable by the user within a reasonable range. According to EU Accessibility regulations. | 13 |
+| aikUs01 | 4    | UI/UX            | As a user I want all graphs to be easily visible even with light visual impairments.| Generated charts and graphs are adjustable. | 8 |
 | aikUs02 | 1    | Child Management | As a teacher, I want to manage child information (add, edit, delete) so my class list remains accurate. | The system must allow adding, modifying, and removing child records, with real-time UI updates. | 3 |
 | aikUs03 | 5    | Feedback         | As a teacher, I want to provide feedback on the application, so it can be continuously improved. | A feedback form must allow submission with categorization (bug, feature request, general). | 5 |
 | aikUs04 | 2    | Child Management | As a teacher, I want to search for a child by name or ID, so I can quickly find their details. | Search results should be returned within 500ms, ranked by relevance. | 3 |
