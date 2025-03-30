@@ -1,6 +1,7 @@
 # AiKita.Planning
 
-
+- [User stories](syp/user_stories.md)
+- [Process documentation](syp/ProcessDocumentation.md)
 
 
 # Timeline
@@ -125,10 +126,4 @@ Meeting before summer:
 
 ```
 
-# AI Tokens
-
-### tokenization process
-when sending text to an API, the text is broken down (tokenized) into units.
-The model processes the text. Both input and output count towards token limit and cost.
-[cost comparison](https://yourgpt.ai/tools/openai-and-other-llm-api-pricing-calculator)
 
