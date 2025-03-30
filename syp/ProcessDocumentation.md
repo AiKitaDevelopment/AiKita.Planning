@@ -39,8 +39,8 @@ Next steps:
 |-----------|-----------|------|-------------|---------|
 | aikUs01   | 8         | 1    | -           | -       |
 | aikUs02   | 3         | 1    | -           | -       |
-| aikUs03   | 5         | 2    | -           | -       |
-| aikUs04   | 3         | 1    | -           | -       |
+| aikUs03   | 5         | 5    | -           | -       |
+| aikUs04   | 3         | 2    | -           | -       |
 | aikMvp01  | 3         | 1    | -           | -       |
 | aikMvp02  | 2         | 1    | -           | -       |
 | aikMvp03  | 5         | 1    | -           | -       |
@@ -51,9 +51,9 @@ Next steps:
 | aikCore01 | 5         | 1    | -           | -       |
 | aikCore02 | 13         | 2    | -           | -       |
 | aikCore03 | 3         | 2    | -           | -       |
-| aikCore04 | 2         | 3    | -           | -       |
-| aikCore05 | 5         | 2    | -           | -       |
-| aikData01 | 5         | 2    | -           | -       |
+| aikCore04 | 2         | 2    | -           | -       |
+| aikCore05 | 5         | 4    | -           | -       |
+| aikData01 | 5         | 1    | -           | -       |
 | aikData02 | 8         | 3    | -           | -       |
 | aikData03 | 2         | 4    | -           | -       |
 | aikData04 | 8         | 4    | -           | -       |
@@ -62,8 +62,8 @@ Next steps:
 | aikSec03  | 3         | 2    | -           | -       |
 | aikSec04  | 5         | 2    | -           | -       |
 | aikCloud01| 3         | 2    | -           | -       |
-| aikCloud02| 5         | 2    | -           | -       |
-| aikCloud03| 8         | 1    | -           | -       |
+| aikCloud02| 5         | 3    | -           | -       |
+| aikCloud03| 8         | 3    | -           | -       |
 | eduQA01   | 21        | 2    | -           | -       |
 | eduQA02   | 12        | 1    | -           | -       |
 | eduQA03   | 21         | 3    | -           | -       |
