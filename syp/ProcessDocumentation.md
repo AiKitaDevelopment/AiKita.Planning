@@ -7,7 +7,7 @@
 | aikPlan02 | 3         | 1    | 8h          | Timeline for meetings has to be adjusted to work demand. Depending on the planned task more frequent meetings are held. |
 
 **🗓 Sprint Duration:** March 1 - March 31, 2025  
-**🎯 Goal:** Set milestones and define taks for group members  
+**🎯 Goal:** Set milestones and define tasks for group members  
 
 ---
 
