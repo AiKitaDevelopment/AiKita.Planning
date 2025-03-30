@@ -41,15 +41,6 @@ gantt
     v1.0 :p16, after p15, 2w
 ```
 
-Next meeting (pre MVP development):
-- What is our MVP? 
-- Task allocation
-
-Meeting before summer:
-- What is our MVP+?
-- Task allocation
-- Focus points
-
 
 # Techstack
 
