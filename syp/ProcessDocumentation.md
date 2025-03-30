@@ -23,8 +23,13 @@ Following steps are taken in order to keep the Sprint dates:
 ---
 
 ## 📌 Current Project Status  
-Here is a screenshot of the current UI prototype:  
-![UI Mockup](https://github.com/riosarah/AiKita.Planning/blob/main/screenshots/ui_mockup.png)  
+- Collection of pseudocode  
+- Defines tasks  
+- Definde Techstack  
+
+Next step:
+Set datastructure  
+App Artitecture online
  
 
 </br></br>
