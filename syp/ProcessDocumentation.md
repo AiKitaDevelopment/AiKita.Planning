@@ -38,9 +38,11 @@ Next steps:
 | Story ID  | EffortEst | Prio | Actual Time | Changes |
 |-----------|-----------|------|-------------|---------|
 | aikUs01   | 8         | 1    | -           | -       |
-| aikUs02   | 3         | 1    | -           | -       |
-| aikUs03   | 5         | 5    | -           | -       |
-| aikUs04   | 3         | 2    | -           | -       |
+| aikUs02   | 13         | 3    | -           | -       |
+| aikUs03   | 8         | 4    | -           | -       |
+| aikUs04   | 3         | 1    | -           | -       |
+| aikUs05   | 5         | 5    | -           | -       |
+| aikUs06   | 3         | 2    | -           | -       |
 | aikMvp01  | 3         | 1    | -           | -       |
 | aikMvp02  | 2         | 1    | -           | -       |
 | aikMvp03  | 5         | 1    | -           | -       |
