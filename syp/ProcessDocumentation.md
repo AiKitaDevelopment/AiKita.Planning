@@ -23,13 +23,14 @@ Following steps are taken in order to keep the Sprint dates:
 ---
 
 ## 📌 Current Project Status  
-- Collection of pseudocode  
+Achieved milestones:  
+- Collection of data sets  
 - Defines tasks  
 - Definde Techstack  
 
-Next step:
-Set datastructure  
-App Artitecture online
+Next steps:  
+- Set datastructure  
+- App Artitecture online
  
 
 </br></br>
