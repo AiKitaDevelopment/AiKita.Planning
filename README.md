@@ -1,6 +1,6 @@
 # AiKita.Planning
 
-## Collaborators:
+## Collaborators
 - Sarah Rio  
 - Ralph Mann  
 - Jürgen Huber  
