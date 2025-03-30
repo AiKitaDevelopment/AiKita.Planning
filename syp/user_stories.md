@@ -45,20 +45,20 @@
 ## Data Management & Reports  
 | ID        | Prio | Epic               | User Story  | COS (Criteria of Satisfaction)  | Effort |
 |-----------|------|--------------------|-------------|---------------------------------|--------|
-| aikData01 | 2   | Child Management   | As a teacher, I want to manage child lists for better organization. | I can create, modify, and delete child lists. | 3 |
-| aikData02 | 3   | Progress Tracking  | As a teacher, I want to track and review a child's progress. | The system must allow logging and filtering of observations over time. | 3 |
-| aikData03 | 4   | Reports            | As a teacher, I want to export child data into tables. | I can generate and download CSV or Excel files. | 4 |
-| aikData04 | 4   | Reports            | As a teacher, I want to visualize child performance. | The system must generate charts and graphs from stored data. | 5 |
+| aikData01 | 1   | Child Management   | As a user, I want to manage child lists for better organization. | I can create, modify, and delete child lists. | 5 |
+| aikData02 | 3   | Progress Tracking  | As a user, I want to track and review a child's progress. | The system must allow logging and filtering of observations over time. | 8 |
+| aikData03 | 4   | Reports            | As a user, I want to export child data into tables. | I can generate and download CSV or Excel files. | 2 |
+| aikData04 | 4   | Reports            | As a user, I want to visualize child performance. | The system must generate charts and graphs from stored data. | 8 |
 
 ---
 
 ## Security & Validation
 | ID        | Prio | Epic     | User Story  | COS (Criteria of Satisfaction)  | Effort |
 |-----------|------|---------|-------------|---------------------------------|--------|
-| aikSec01  | 1    | Security | As a user, I want all sensitive data to be encrypted. | AES-256 encryption must be applied at field level. | 4 |
+| aikSec01  | 1    | Security | As a user, I want all sensitive data to be encrypted. | AES-256 encryption must be applied. | 21 |
 | aikSec02  | 2    | Security | As a user, I want to anonymize or exclude personal data when exporting. | An option must allow exporting anonymized or full data. | 3 |
 | aikSec03  | 2    | Security | As a user, I want file uploads to be validated. | JSON uploads must be schema-validated before processing. | 3 |
-| aikSec04  | 2    | Security | As an admin, I want audit logs to track data access. | The system must log all read/write actions for compliance. | 4 |
+| aikSec04  | 2    | Security | As an admin, I want audit logs to track data access. | The system must log all read/write actions for compliance. | 5 |
 
 ---
 
@@ -66,8 +66,8 @@
 | ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort |
 |-----------|------|-------|-------------|---------------------------------|--------|
 | aikCloud01 | 2   | API   | As a user, I want to log in securely. | Authentication must use JWT with a refresh mechanism. | 3 |
-| aikCloud02 | 2   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 4 |
-| aikCloud03 | 1   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 4 |
+| aikCloud02 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 5 |
+| aikCloud03 | 1   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 |
 
 ---
 
