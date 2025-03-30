@@ -1,5 +1,10 @@
 # AiKita.Planning
 
+# Collaborators:
+- Sarah Rio  
+- Ralph Mann  
+- Jürgen Huber  
+
 - [User stories](syp/user_stories.md)
 - [Process documentation](syp/ProcessDocumentation.md)
 
