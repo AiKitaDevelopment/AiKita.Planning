@@ -3,8 +3,8 @@
 ## 🏃 Sprint 1: Basic Planning & Strategy
 | Story ID  | EffortEst | Prio | Actual Time | Changes |
 |-----------|-----------|------|-------------|---------|
-| aikPlan01 | 3         | 1    | 6h          | 0       |
-| aikPlan02 | 3         | 1    | 8h          | Timeline for meetings has to be adjusted to work demand. Depending on the planned task more frequent meetings are held. |
+| aikPlan01 | 3         | 1    | 13h          | 0       |
+| aikPlan02 | 3         | 1    | 16h          | Timeline for meetings has to be adjusted to work demand. Depending on the planned task more frequent meetings are held. |
 
 **🗓 Sprint Duration:** March 1 - March 31, 2025  
 **🎯 Goal:** Set milestones and define tasks for group members  
