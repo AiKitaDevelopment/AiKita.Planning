@@ -1,18 +1,30 @@
-# Sprint Overviews:
-
-## Sprint#1
+# :running: Sprint Overviews
 
 
-## Sprint#2
-tbd
+## :calendar: Sprint#1
+#### :hourglass: Sprint Duration: March 1 - March 31, 2025  
+:round_pushpin: tbd  
+:round_pushpin: tbd  
+:round_pushpin: tbd
 
+<br>
+<br>
 
-## Sprint#3
-tbd
+## :calendar: Sprint#2
+#### :hourglass: Sprint Duration: March 1 - March 31, 2025  
+:round_pushpin: tbd
 
-## Sprint#4
-tbd
+<br>
+<br>
 
+## :calendar: Sprint#3
+#### :hourglass: Sprint Duration: March 1 - March 31, 2025  
+:round_pushpin: tbd
 
-## Sprint#5
-tbd
+<br>
+<br>
+
+## :calendar: Sprint#4
+#### :hourglass: Sprint Duration: March 1 - March 31, 2025  
+:round_pushpin: tbd
+
