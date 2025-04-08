@@ -73,9 +73,3 @@
 
 ---
 
-## Quality Assurance & Performance
-| ID      | Prio | Epic | User Story  | COS (Criteria of Satisfaction)  | Effort |
-|--------|------|------|-------------|---------------------------------|--------|
-| eduQA01 | 2   | QA   | As a QA engineer, I want automated tests. | At least 80% test coverage must be achieved. | 21 |
-| eduQA02 | 1   | QA   | As a QA engineer, I want performance tests. | The app must handle 100 users with <2s response times. | 13 |
-| eduQA03 | 3   | QA   | As a QA engineer, I want usability tests. | Usability tests must be conducted with real users. | 21 |
