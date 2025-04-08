@@ -8,6 +8,7 @@
 # Links
 - [User stories](syp/user_stories.md)
 - [Process documentation](syp/ProcessDocumentation.md)
+- [Quality commitment statement](syp/Quality_commitment.md)
 
 
 # Timeline
