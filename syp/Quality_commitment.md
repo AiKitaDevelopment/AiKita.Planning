@@ -31,12 +31,11 @@ The following QA practices and goals define our standard:
 
 # QA Milestones
 
-| Milestone | Description | Target Date | Owner |
-|-----------|-------------|-------------|-------|
-| **M1 – QA Infrastructure Setup** | CI/CD with automated test runner + code coverage reporting | Week 2 | DevOps |
-| **M2 – Core Unit Tests (>50%)** | Unit tests for all core modules, 50% coverage | Week 4 | QA + Dev |
-| **M3 – Usability Testing Phase 1 (Hallway)** | Hallway testing of UI flow, 5 test users | Week 5 | QA |
-| **M4 – Core Performance Test** | Load test with 100 simulated users | Week 6 | QA |
-| **M5 – Field Testing Phase** | Field test with 10 users of full feature set | Week 8 | QA + Product |
-| **M6 – QA Gate Enforcement** | PRs blocked if <80% coverage or missing tests | Week 9 | Dev |
-| **M7 – Final QA Audit & Sign-off** | Regression testing, usability feedback integrated | Week 10 | QA Lead |
+| Milestone | Description | Target Date | 
+|-----------|-------------|-------------|
+| **M1 – QA Infrastructure Setup** | CI/CD with automated test runner + code coverage reporting | Month 2 | 
+| **M2 – Core Unit Tests (>50%)** | Unit tests for all core modules, 50% coverage | Mont 4  | 
+| **M3 – Usability Testing Phase 1 (Hallway)** | Hallway testing of UI flow, 5 test users | Month 4 | 
+| **M4 – Core Performance Test** | Load test with 100 simulated users | Month 6 | 
+| **M5 – Field Testing Phase** | Field test with 10 users of full feature set | Month 7 | 
+| **M6 – Final QA Audit & Sign-off** | Regression testing, usability feedback integrated | Month 8 -10 |
