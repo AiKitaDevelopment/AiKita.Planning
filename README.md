@@ -6,11 +6,13 @@
 - Jürgen Huber  
 
 # Links
-- [User stories](syp/user_stories.md)
-- [Process documentation](syp/ProcessDocumentation.md)
-- [Quality commitment statement](syp/Quality_commitment.md)
+[User stories](syp/user_stories.md)
+<br><br>
+[Process documentation](syp/ProcessDocumentation.md)
+<br><br>
+[Quality commitment statement](syp/Quality_commitment.md)
 
-
+<br><br>
 # Timeline
 
 ```mermaid
