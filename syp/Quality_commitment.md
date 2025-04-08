@@ -1,8 +1,8 @@
-# Quality Assurance Principle Statement
+# 🛠️ Quality Assurance Principle Statement
 
 **Quality Assurance (QA)** is a foundational principle of our development process. 
 We embed quality into every stage of our development lifecycle — from design to deployment. 
-The following QA practices and goals define our standard:
+The following QA practices and goals define our standard:  
 
 ## General QA Guidelines
 
@@ -29,7 +29,7 @@ The following QA practices and goals define our standard:
 
 ---
 
-# QA Milestones
+# 🎯QA Milestones
 
 | Milestone | Description | Target Date | 
 |-----------|-------------|-------------|
