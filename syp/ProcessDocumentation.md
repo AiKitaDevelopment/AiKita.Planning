@@ -1,10 +1,10 @@
 # Process Documentation - AiKita
 
 ## 🏃 Sprint 1: Basic Planning & Strategy
-| Story ID  | EffortEst | Prio | Actual Time | Changes |
-|-----------|-----------|------|-------------|---------|
-| aikPlan01 | 3         | 1    | 13h          | 0       |
-| aikPlan02 | 3         | 1    | 16h          | Timeline for meetings has to be adjusted to work demand. Depending on the planned task more frequent meetings are held. |
+| Story ID  | EffortEst | Prio | Actual Time | Changes | Sprint |
+|-----------|-----------|------|-------------|---------|--------|
+| aikPlan01 | 3         | 1    | 13h          | 0       |   Sprint#1    |
+| aikPlan02 | 3         | 1    | 16h          | Timeline for meetings has to be adjusted to work demand. Depending on the planned task more frequent meetings are held. |  Sprint#2   |
 
 **🗓 Sprint Duration:** March 1 - March 31, 2025  
 **🎯 Goal:** Set milestones and define tasks for group members  
@@ -19,6 +19,8 @@ Following steps are taken in order to keep the Sprint dates:
 - **📉 Burndown Chart**  
   - Visual representation ([Timeline Chart](https://github.com/riosarah/AiKita.Planning/blob/main/README.md))  of the progress to track remaining tasks.  
   - Helps assess if the team is on track or if adjustments are needed. 
+
+- **
 
 ---
 
