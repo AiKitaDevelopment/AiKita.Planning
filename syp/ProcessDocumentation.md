@@ -1,6 +1,6 @@
 # Process Documentation - AiKita
 
-## 🏃 Sprint 1: Basic Planning & Strategy
+## 🏃 Sprint: Basic Planning & Strategy
 | Story ID  | EffortEst | Prio | Actual Time | Changes | Sprint |
 |-----------|-----------|------|-------------|---------|--------|
 | aikPlan01 | 3         | 1    | 13h          | 0       |   [Sprint1](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-1)   |
