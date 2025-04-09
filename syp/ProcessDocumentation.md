@@ -5,8 +5,8 @@
 |-----------|-----------|------|-------------|---------|--------|
 | aikPlan01 | 3         | 1    | 13h          | 0       |   [Sprint1](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-1)   |
 | aikPlan02 | 3         | 1    | 16h          | Timeline for meetings has to be adjusted to work demand. Depending on the planned task more frequent meetings are held. |  [Sprint2](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-2)   |
-|  |          |    |           |        |   [Sprint3](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-3)   |
-|  |          |    |           |        |   [Sprint4](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint4)   |
+|  |          |    |           |        |   [Sprint3](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#user-content-calendar-sprint-3)   |
+|  |          |    |           |        |   [Sprint4](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-4)   |
 
 https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint3
 ---
