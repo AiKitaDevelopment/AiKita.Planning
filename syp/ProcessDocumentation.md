@@ -5,9 +5,8 @@
 |-----------|-----------|------|-------------|---------|--------|
 | aikPlan01 | 3         | 1    | 13h          | 0       |   [Sprint#1](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint1)   |
 | aikPlan02 | 3         | 1    | 16h          | Timeline for meetings has to be adjusted to work demand. Depending on the planned task more frequent meetings are held. |  [Sprint#2](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint2)   |
+|  |          |    |           |        |   [Sprint#3](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint3)   |
 
-**🗓 Sprint Duration:** March 1 - March 31, 2025  
-**🎯 Goal:** Set milestones and define tasks for group members  
 
 ---
 
