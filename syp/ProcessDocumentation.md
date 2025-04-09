@@ -8,7 +8,6 @@
 |  |          |    |           |        |   [Sprint3](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#user-content-calendar-sprint-3)   |
 |  |          |    |           |        |   [Sprint4](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-4)   |
 
-https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint3
 ---
 
 ## 🔍 Monitoring & Progress Tracking  
