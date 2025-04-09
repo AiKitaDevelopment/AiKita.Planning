@@ -11,7 +11,7 @@
 
 ## :calendar: Sprint#2
 #### :hourglass: Sprint Duration: 
-:round_pushpin: tbd
+:round_pushpin: still to be defined
 
 <br>
 <br>
