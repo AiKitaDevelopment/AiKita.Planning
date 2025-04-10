@@ -10,15 +10,6 @@
 
 ---
 
-## 📌 Current Project Status  
-Achieved milestones:  
-- Collection of data sets  
-- Defines tasks  
-- Definde Techstack  
-
-Next steps:  
-- Set datastructure  
-- App Artitecture online
  
 
 </br></br>
