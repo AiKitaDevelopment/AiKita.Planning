@@ -13,6 +13,8 @@ Following steps are taken in order to keep the Sprint dates:
 ## :calendar: Sprint 1
 #### :hourglass: Sprint Duration: March 1 - March 31, 2025  
 :round_pushpin: Set milestones and define tasks for group members  
+:round_pushpin: Collection of data sets  
+:round_pushpin: Definde Techstack
 
 
 <br>
