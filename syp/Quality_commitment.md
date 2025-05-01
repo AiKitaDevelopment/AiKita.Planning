@@ -39,3 +39,10 @@ The following QA practices and goals define our standard:
 | **M4 – Core Performance Test** | Load test with 100 simulated users | Month 6 | 
 | **M5 – Field Testing Phase** | Field test with 10 users of full feature set | Month 7 | 
 | **M6 – Final QA Audit & Sign-off** | Regression testing, usability feedback integrated | Month 8 -10 |
+
+# :chart_with_upwards_trend: Documentation
+
+| Task | Status | Details | 
+|-----------|-------------|-------------|
+| Entity Unit Tests | 80% completed | Implemented for all entities (backend) and their local validation excluding fulldata. | 
+
