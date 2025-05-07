@@ -16,9 +16,9 @@ Following steps are taken in order to keep the Sprint dates:
 :round_pushpin: Collection of data sets  
 :round_pushpin: Definde Techstack
 
-Total hours worked:  
-Total effort:  
-Velocity: 
+Total hours worked:  13h
+Total effort:  3
+Velocity: 3 * 50 % = 1,5
 
 
 <br>
