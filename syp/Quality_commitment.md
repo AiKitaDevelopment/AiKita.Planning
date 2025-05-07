@@ -42,7 +42,9 @@ The following QA practices and goals define our standard:
 
 # :chart_with_upwards_trend: Documentation
 
-| Task | Status | Details | 
-|-----------|-------------|-------------|
-| Entity Unit Tests | 80% completed | Implemented for all entities (backend) and their local validation excluding fulldata. | 
+| Date | Task | Status | Details | 
+|------|-----------|-------------|-------------|
+| 01.05.2025 | Entity Unit Tests | 30% completed | Implemented for all entities (backend) and their local validation excluding fulldata. | 
+| 07.05.2025 | Entity Unit Tests | 50% completed | Implemented for all entities (backend) and their global validation uncluding fulldata. | 
+
 
