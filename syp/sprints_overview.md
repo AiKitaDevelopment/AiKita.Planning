@@ -18,7 +18,7 @@ Following steps are taken in order to keep the Sprint dates:
 
 Total hours worked: 13h  
 Total effort: 3  
-Velocity: 3 * 50 % = 1,5
+Velocity: 4,3
 
 
 <br>
