@@ -21,20 +21,20 @@ Following steps are taken in order to keep the Sprint dates:
 <br>
 
 ## :calendar: Sprint 2
-#### :hourglass: Sprint Duration: 
+#### :hourglass: Sprint Duration: April 1 - April 15  
 :round_pushpin: still to be defined
 
 <br>
 <br>
 
 ## :calendar: Sprint 3
-#### :hourglass: Sprint Duration:   
+#### :hourglass: Sprint Duration: April 16 - April 30  
 :round_pushpin: tbd
 
 <br>
 <br>
 
 ## :calendar: Sprint 4
-#### :hourglass: Sprint Duration:   
+#### :hourglass: Sprint Duration: May 1 - May 15  
 :round_pushpin: tbd
 
