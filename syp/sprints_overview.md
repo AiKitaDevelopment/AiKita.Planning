@@ -42,8 +42,8 @@ Velocity: 5,3
 :round_pushpin: tbd
 
 Total hours worked:  20h  
-Total effort:  
-Velocity: 
+Total effort: 3  
+Velocity: 6,7
 
 <br>
 <br>
