@@ -41,7 +41,7 @@ Velocity: 5,3
 #### :hourglass: Sprint Duration: April 16 - April 30  
 :round_pushpin: tbd
 
-Total hours worked:  
+Total hours worked:  20h  
 Total effort:  
 Velocity: 
 
