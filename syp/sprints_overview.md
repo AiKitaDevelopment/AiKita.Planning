@@ -16,6 +16,9 @@ Following steps are taken in order to keep the Sprint dates:
 :round_pushpin: Collection of data sets  
 :round_pushpin: Definde Techstack
 
+Total hours worked:  
+Total effort: 
+
 
 <br>
 <br>
@@ -24,6 +27,9 @@ Following steps are taken in order to keep the Sprint dates:
 #### :hourglass: Sprint Duration: April 1 - April 15  
 :round_pushpin: still to be defined
 
+Total hours worked:  
+Total effort: 
+
 <br>
 <br>
 
@@ -31,10 +37,16 @@ Following steps are taken in order to keep the Sprint dates:
 #### :hourglass: Sprint Duration: April 16 - April 30  
 :round_pushpin: tbd
 
+Total hours worked:  
+Total effort: 
+
 <br>
 <br>
 
 ## :calendar: Sprint 4
 #### :hourglass: Sprint Duration: May 1 - May 15  
 :round_pushpin: tbd
+
+Total hours worked:  
+Total effort: 
 
