@@ -32,7 +32,7 @@ Velocity: 4,3
 
 Total hours worked: 16h  
 Total effort: 3  
-Velocity: 
+Velocity: 5,3
 
 <br>
 <br>
