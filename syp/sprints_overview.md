@@ -17,7 +17,8 @@ Following steps are taken in order to keep the Sprint dates:
 :round_pushpin: Definde Techstack
 
 Total hours worked:  
-Total effort: 
+Total effort:  
+Velocity: 
 
 
 <br>
@@ -28,7 +29,8 @@ Total effort:
 :round_pushpin: still to be defined
 
 Total hours worked:  
-Total effort: 
+Total effort:  
+Velocity: 
 
 <br>
 <br>
@@ -38,7 +40,8 @@ Total effort:
 :round_pushpin: tbd
 
 Total hours worked:  
-Total effort: 
+Total effort:  
+Velocity: 
 
 <br>
 <br>
@@ -48,5 +51,6 @@ Total effort:
 :round_pushpin: tbd
 
 Total hours worked:  
-Total effort: 
+Total effort:  
+Velocity: 
 
