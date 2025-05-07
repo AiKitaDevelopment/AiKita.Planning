@@ -34,8 +34,8 @@
 ---
 
 ## Core System (MVP+)
-| ID        | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort |
-|-----------|------|-----------------|-------------|---------------------------------|--------|
+| ID        | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Status |
+|-----------|------|-----------------|-------------|---------------------------------|--------|--------|
 | aikCore01 | 1   | Dashboard        | As an admin, I want to view all submitted entries in a structured dashboard. | The admin UI must display stored entries with filtering, sorting, and pagination. | 5 |
 | aikCore02 | 2   | Sync             | As a user, I want to sync my data to a remote database. | The .NET backend must store data in PostgreSQL and track sync events with logs. | 13 |
 | aikCore03 | 2   | Data Management  | As a user, I want to delete stored records. | Each entry must have a delete button with a confirmation prompt. | 3 |
