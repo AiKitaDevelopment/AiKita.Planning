@@ -30,7 +30,7 @@ Velocity: 4,3
 :round_pushpin: Set meeting schedule  
 :round_pushpin: Negoating responsibilities  
 
-Total hours worked: 16h 
+Total hours worked: 16h  
 Total effort: 3  
 Velocity: 
 
