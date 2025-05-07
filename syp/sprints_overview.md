@@ -26,10 +26,12 @@ Velocity: 4,3
 
 ## :calendar: Sprint 2
 #### :hourglass: Sprint Duration: April 1 - April 15  
-:round_pushpin: still to be defined
+:round_pushpin: Research technilogies  
+:round_pushpin: Set meeting schedule  
+:round_pushpin: Negoating responsibilities  
 
-Total hours worked:  
-Total effort:  
+Total hours worked: 16h 
+Total effort: 3  
 Velocity: 
 
 <br>
