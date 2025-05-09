@@ -12,9 +12,9 @@ Following steps are taken in order to keep the Sprint dates:
 
 ## :calendar: Sprint 1
 #### :hourglass: Sprint Duration: March 1 - March 31, 2025  
-:round_pushpin: Set milestones and define tasks for group members  
+:round_pushpin: Set milestones and defined tasks for group members  
 :round_pushpin: Collection of data sets  
-:round_pushpin: Definde Techstack
+:round_pushpin: Definded Techstack
 
 Total hours worked: 13h  
 Total effort: 3  
@@ -26,9 +26,9 @@ Velocity: 4,3
 
 ## :calendar: Sprint 2
 #### :hourglass: Sprint Duration: April 1 - April 15  
-:round_pushpin: Research technilogies  
+:round_pushpin: Research technologies  
 :round_pushpin: Set meeting schedule  
-:round_pushpin: Negoating responsibilities  
+:round_pushpin: Negotiang responsibilities  
 
 Total hours worked: 16h  
 Total effort: 3  
@@ -39,7 +39,10 @@ Velocity: 5,3
 
 ## :calendar: Sprint 3
 #### :hourglass: Sprint Duration: April 16 - April 30  
-:round_pushpin: tbd
+:round_pushpin: Created Mock database for backend <br>
+:round_pushpin: Included Data Upload ability into backend for existing databases <br>
+:round_pushpin: Implemented local schema validation in C# to ensure data integrity before persisting entities to the database. <br>
+:round_pushpin: Validation applied to data submitted via file upload and through the web API. <br>
 
 Total hours worked:  20h  
 Total effort: 3  
@@ -50,9 +53,23 @@ Velocity: 6,7
 
 ## :calendar: Sprint 4
 #### :hourglass: Sprint Duration: May 1 - May 15  
-:round_pushpin: tbd
+:round_pushpin: Logs for all interaction on database implemented <br>
+:round_pushpin: Secure login for full educational database implemented <br>
+:round_pushpin: Field specific anonymization strategies for backend data access added. <br>
 
-Total hours worked:  
+Total hours worked: 22h <br>
+Total effort:  11 <br>
+Velocity: 2 <br>
+
+
+<br>
+<br>
+
+## :calendar: Sprint 5
+#### :hourglass: Sprint Duration: May 16 - May 31 
+:round_pushpin: tbd <br>
+
+Total hours worked: 
 Total effort:  
 Velocity: 
 
