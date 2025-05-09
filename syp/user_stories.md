@@ -26,10 +26,11 @@
 | aikMvp01 | 1  | UI/UX            | As a user, I want to launch the app and see a clear welcome screen, so I know it is working. | Tauri shell must load Angular UI within 3s and display app title with a description. | 3 |
 | aikMvp02 | 1  | Forms            | As a user, I want structured forms with validation, so I can enter correct data without errors. | Forms must include validation for all fields and display clear error messages. | 2 |
 | aikMvp03 | 1  | Data Processing  | As a user, I want to submit a form and receive anonymized data as a backup so I can review and store it securely. | A .NET endpoint must return anonymized JSON data (e.g., hashed emails, masked phone numbers) within 1s. | 5 |
-| aikMvp04 | 2  | Data Processing  | As a developer, I want to apply field-specific anonymization strategies. | Email → hashed, names → initials, phone → masked (***-1234). | 3 |
-| aikMvp05 | 1  | Data Management  | As a user, I want to save and view anonymized data, so I can manage records efficiently. | Data should be saved via EF Core to SQLite, with a UI list for browsing entries. | 3 |
-| aikMvp06 | 2  | Export           | As a user, I want to export selected records, so I can use them externally. | A Download button must export the selected entries in a structured format. | 2 |
-| aikMvp07 | 3  | Export           | As a user, I want to export multiple records at once. | A checkbox UI must allow selecting multiple records for batch export. | 2 |
+| aikMvp04 | 2  | Data Processing  | As a developer, I want to apply field-specific anonymization strategies to backend data access. | Email → hashed, names → initials, phone → masked (***-1234). | 3 |
+| aikMvp05 | 2  | Data Processing  | As a developer, I want to apply field-specific anonymization strategies to frontend data access. | Email → hashed, names → initials, phone → masked (***-1234). | 3 |
+| aikMvp06 | 1  | Data Management  | As a user, I want to save and view anonymized data, so I can manage records efficiently. | Data should be saved via EF Core to SQLite, with a UI list for browsing entries. | 3 |
+| aikMvp07 | 2  | Export           | As a user, I want to export selected records, so I can use them externally. | A Download button must export the selected entries in a structured format. | 2 |
+| aikMvp08 | 3  | Export           | As a user, I want to export multiple records at once. | A checkbox UI must allow selecting multiple records for batch export. | 2 |
 
 ---
 
@@ -67,9 +68,10 @@
 ## Cloud API + Admin
 | ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status |
 |-----------|------|-------|-------------|---------------------------------|--------| --------|------|
-| aikCloud01 | 2   | API   | As a user, I want to log in securely. | Authentication must use JWT with a refresh mechanism. | 3 |
-| aikCloud02 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 5 |
-| aikCloud03 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 |
+| aikCloud01 | 2   | API   | As a user, I want to log in securely to the database. | Authentication must use JWT with a refresh mechanism. | 3 |
+| aikCloud02 | 2   | API   | As a user, I want to log in securely to the child managment system. | Authentication must use JWT with a refresh mechanism. | 3 |
+| aikCloud03 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 5 |
+| aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 |
 
 ---
 
