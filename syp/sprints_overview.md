@@ -68,3 +68,6 @@ Total effort:  11
 Total hours worked:  
 Total effort:  
 
+---
+Total hours:   
+avg velocity:   
