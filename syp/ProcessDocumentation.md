@@ -38,6 +38,7 @@
 | aikCore03 | 3         | 2    | -           | -       |
 | aikCore04 | 2         | 2    | -           | -       |
 | aikCore05 | 5         | 4    | -           | -       |
+| aikCore06 | 13        | 4   | -           | -       |
 | aikData01 | 5         | 1    | -           | -       |
 | aikData02 | 8         | 3    | -           | -       |
 | aikData03 | 2         | 4    | -           | -       |
@@ -45,7 +46,7 @@
 | aikSec01  | 21         | 1    | -           | -       |
 | aikSec02  | 3         | 2    | -           | -       |
 | aikCloud02| 3         | 2    | -           | -       |
-| aikCloud03| 5         | 3    | -           | -       |
+| aikCloud03| 13         | 3    | -           | -       |
 | aikCloud04| 8         | 3    | -           | -       |
 | eduQA01   | 21        | 2    | -           | -       |
 | eduQA02   | 12        | 1    | -           | -       |
