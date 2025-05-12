@@ -18,7 +18,6 @@ Following steps are taken in order to keep the Sprint dates:
 
 Total hours worked: 13h  
 Total effort: 3  
-Velocity: 4,3
 
 
 <br>
@@ -32,7 +31,6 @@ Velocity: 4,3
 
 Total hours worked: 16h  
 Total effort: 3  
-Velocity: 5,3
 
 <br>
 <br>
@@ -46,7 +44,6 @@ Velocity: 5,3
 
 Total hours worked:  20h  
 Total effort: 3  
-Velocity: 6,7
 
 <br>
 <br>
@@ -57,9 +54,8 @@ Velocity: 6,7
 :round_pushpin: Secure login for full educational database implemented <br>
 :round_pushpin: Field specific anonymization strategies for backend data access added. <br>
 
-Total hours worked: 22h <br>
-Total effort:  11 <br>
-Velocity: 2 <br>
+Total hours worked: 22h  
+Total effort:  11 
 
 
 <br>
