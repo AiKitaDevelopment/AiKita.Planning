@@ -67,8 +67,6 @@ Velocity:
 #### :hourglass: Sprint Duration: May 16 - May 31 
 :round_pushpin: tbd <br>
 
-Total hours worked:  
-Total effort:  
 
 ---
 Total hours:   
