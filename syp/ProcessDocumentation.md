@@ -29,10 +29,10 @@
 | aikMvp01  | 3         | 1    | -           | -       |
 | aikMvp02  | 2         | 1    | -           | -       |
 | aikMvp03  | 5         | 1    | -           | -       |
-| aikMvp04  | 3         | 2    | -           | -       |
-| aikMvp05  | 3         | 1    | -           | -       |
-| aikMvp06  | 2         | 2    | -           | -       |
-| aikMvp07  | 2         | 3    | -           | -       |
+| aikMvp05  | 3         | 2    | -           | -       |
+| aikMvp06  | 3         | 1    | -           | -       |
+| aikMvp07  | 2         | 2    | -           | -       |
+| aikMvp08  | 2         | 3    | -           | -       |
 | aikCore01 | 5         | 1    | -           | -       |
 | aikCore02 | 13         | 2    | -           | -       |
 | aikCore03 | 3         | 2    | -           | -       |
@@ -44,11 +44,9 @@
 | aikData04 | 8         | 4    | -           | -       |
 | aikSec01  | 21         | 1    | -           | -       |
 | aikSec02  | 3         | 2    | -           | -       |
-| aikSec03  | 3         | 2    | -           | -       |
-| aikSec04  | 5         | 2    | -           | -       |
-| aikCloud01| 3         | 2    | -           | -       |
-| aikCloud02| 5         | 3    | -           | -       |
-| aikCloud03| 8         | 3    | -           | -       |
+| aikCloud02| 3         | 2    | -           | -       |
+| aikCloud03| 5         | 3    | -           | -       |
+| aikCloud04| 8         | 3    | -           | -       |
 | eduQA01   | 21        | 2    | -           | -       |
 | eduQA02   | 12        | 1    | -           | -       |
 | eduQA03   | 21         | 3    | -           | -       |
