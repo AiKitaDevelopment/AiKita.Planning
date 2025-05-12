@@ -55,5 +55,5 @@
 
 ---
 
-Total effort: 287
+Total effort: 287  
 Avg Velocity: 
