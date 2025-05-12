@@ -51,3 +51,9 @@
 | eduQA01   | 21        | 2    | -           | -       |
 | eduQA02   | 12        | 1    | -           | -       |
 | eduQA03   | 21         | 3    | -           | -       |
+
+
+---
+
+Total effort: 287
+Avg Velocity: 
