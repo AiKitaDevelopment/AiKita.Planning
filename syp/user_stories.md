@@ -37,11 +37,12 @@
 ## Core System (MVP+)
 | ID        | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status |
 |-----------|------|-----------------|-------------|---------------------------------|--------|------|--------|
-| aikCore01 | 1   | Dashboard        | As an admin, I want to view all submitted entries in a structured dashboard. | The admin UI must display stored entries with filtering, sorting, and pagination. | 5 |
-| aikCore02 | 2   | Sync             | As a user, I want to sync my data to a remote database. | The .NET backend must store data in PostgreSQL and track sync events with logs. | 13 |
+| aikCore01 | 1   | Dashboard        | As an admin, I want to view all submitted entries in a structured dashboard. | The admin UI must display stored entries with filtering, sorting, and pagination. | 5 |  10 | 30% |
+| aikCore02 | 2   | Sync             | As a user, I want to sync my data to a remote database. | The .NET backend must store data in PostgreSQL and track sync events with logs. | 13 | 20 | 100% ||
 | aikCore03 | 2   | Data Management  | As a user, I want to delete stored records. | Each entry must have a delete button with a confirmation prompt. | 3 |
 | aikCore04 | 2   | UI/UX            | As a user, I want a warning before closing the app with unsaved changes. | The app must show a confirmation dialog when unsaved changes exist. | 2 |
 | aikCore05 | 4   | Dashboard        | As a user, I want to see my recent activity in a sidebar. | A sidebar must show a log of recent interactions (e.g., submissions, edits). | 5 |
+| aikCore06 | 4  | Dashboard      | As an admin, I want an overview over database interactions in graphs | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs. |   13   |   5  | 10%  |
 
 ---
 
@@ -70,7 +71,7 @@
 |-----------|------|-------|-------------|---------------------------------|--------| --------|------|
 | aikCloud01 | 2   | API   | As a user, I want to log in securely to the database. | Authentication must use JWT with a refresh mechanism. | 3 | 10 | 100% |
 | aikCloud02 | 2   | API   | As a user, I want to log in securely to the child managment system. | Authentication must use JWT with a refresh mechanism. | 3 |
-| aikCloud03 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 5 |
+| aikCloud03 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 13 |   8  |  5%  |
 | aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 |
 
 ---
