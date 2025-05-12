@@ -69,5 +69,5 @@ Velocity:
 
 
 ---
-Total hours:   
-avg velocity:   
+Total hours: 61  
+avg velocity: 5
