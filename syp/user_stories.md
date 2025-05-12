@@ -60,15 +60,15 @@
 |-----------|------|---------|-------------|---------------------------------|--------|-------|--------|
 | aikSec01  | 1    | Security | As a user, I want all sensitive data to be encrypted. | AES-256 encryption must be applied. | 21 |
 | aikSec02  | 2    | Security | As a user, I want to anonymize or exclude personal data when exporting. | An option must allow exporting anonymized or full data. | 3 |
-| aikSec03  | 2    | Security | As a user, I want file uploads to be validated. | JSON uploads must be schema-validated before processing. | 3 | 20
-| aikSec04  | 2    | Security | As an admin, I want audit logs to track data access. | The system must log all read/write actions for compliance. | 5 | 10
+| aikSec03  | 2    | Security | As a user, I want file uploads to be validated. | JSON uploads must be schema-validated before processing. | 3 | 20 | 100%
+| aikSec04  | 2    | Security | As an admin, I want audit logs to track data access. | The system must log all read/write actions for compliance. | 5 | 10 | 100%
 
 ---
 
 ## Cloud API + Admin
 | ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status |
 |-----------|------|-------|-------------|---------------------------------|--------| --------|------|
-| aikCloud01 | 2   | API   | As a user, I want to log in securely to the database. | Authentication must use JWT with a refresh mechanism. | 3 | 10
+| aikCloud01 | 2   | API   | As a user, I want to log in securely to the database. | Authentication must use JWT with a refresh mechanism. | 3 | 10 | 100%
 | aikCloud02 | 2   | API   | As a user, I want to log in securely to the child managment system. | Authentication must use JWT with a refresh mechanism. | 3 |
 | aikCloud03 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 5 |
 | aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 |
