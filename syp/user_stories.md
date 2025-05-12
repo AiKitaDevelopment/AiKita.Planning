@@ -3,8 +3,8 @@
 ## Planning and Strategies
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|
-| aikPlan01 | 1    | Planning & Strategy | As a product manager, I want to create a roadmap to break development into clear milestones. | Milestones and goals are clearly defined. Work focus is dictated by a timeline with concrete deadlines. | 3 |  |
-| aikPlan02 | 1    | Planning & Strategy | As a product manager, I want to organize and design the project’s workflow to maximize efficiency. | Weekly meetings are set and responsibilities are defined. Responsibility for individual tasks is assigned. | 3 |  |
+| aikPlan01 | 1    | Planning & Strategy | As a product manager, I want to create a roadmap to break development into clear milestones. | Milestones and goals are clearly defined. Work focus is dictated by a timeline with concrete deadlines. | 3 | 13 |
+| aikPlan02 | 1    | Planning & Strategy | As a product manager, I want to organize and design the project’s workflow to maximize efficiency. | Weekly meetings are set and responsibilities are defined. Responsibility for individual tasks is assigned. | 3 | 16 |
 
 ---
 
@@ -26,7 +26,7 @@
 | aikMvp01 | 1  | UI/UX            | As a user, I want to launch the app and see a clear welcome screen, so I know it is working. | Tauri shell must load Angular UI within 3s and display app title with a description. | 3 |
 | aikMvp02 | 1  | Forms            | As a user, I want structured forms with validation, so I can enter correct data without errors. | Forms must include validation for all fields and display clear error messages. | 2 |
 | aikMvp03 | 1  | Data Processing  | As a user, I want to submit a form and receive anonymized data as a backup so I can review and store it securely. | A .NET endpoint must return anonymized JSON data (e.g., hashed emails, masked phone numbers) within 1s. | 5 |
-| aikMvp04 | 2  | Data Processing  | As a developer, I want to apply field-specific anonymization strategies to backend data access. | Email → hashed, names → initials, phone → masked (***-1234). | 3 |
+| aikMvp04 | 2  | Data Processing  | As a developer, I want to apply field-specific anonymization strategies to backend data access. | Email → hashed, names → initials, phone → masked (***-1234). | 3 | 2
 | aikMvp05 | 2  | Data Processing  | As a developer, I want to apply field-specific anonymization strategies to frontend data access. | Email → hashed, names → initials, phone → masked (***-1234). | 3 | 2
 | aikMvp06 | 1  | Data Management  | As a user, I want to save and view anonymized data, so I can manage records efficiently. | Data should be saved via EF Core to SQLite, with a UI list for browsing entries. | 3 |
 | aikMvp07 | 2  | Export           | As a user, I want to export selected records, so I can use them externally. | A Download button must export the selected entries in a structured format. | 2 |
@@ -60,15 +60,15 @@
 |-----------|------|---------|-------------|---------------------------------|--------|-------|--------|
 | aikSec01  | 1    | Security | As a user, I want all sensitive data to be encrypted. | AES-256 encryption must be applied. | 21 |
 | aikSec02  | 2    | Security | As a user, I want to anonymize or exclude personal data when exporting. | An option must allow exporting anonymized or full data. | 3 |
-| aikSec03  | 2    | Security | As a user, I want file uploads to be validated. | JSON uploads must be schema-validated before processing. | 3 |
-| aikSec04  | 2    | Security | As an admin, I want audit logs to track data access. | The system must log all read/write actions for compliance. | 5 |
+| aikSec03  | 2    | Security | As a user, I want file uploads to be validated. | JSON uploads must be schema-validated before processing. | 3 | 20
+| aikSec04  | 2    | Security | As an admin, I want audit logs to track data access. | The system must log all read/write actions for compliance. | 5 | 10
 
 ---
 
 ## Cloud API + Admin
 | ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status |
 |-----------|------|-------|-------------|---------------------------------|--------| --------|------|
-| aikCloud01 | 2   | API   | As a user, I want to log in securely to the database. | Authentication must use JWT with a refresh mechanism. | 3 |
+| aikCloud01 | 2   | API   | As a user, I want to log in securely to the database. | Authentication must use JWT with a refresh mechanism. | 3 | 10
 | aikCloud02 | 2   | API   | As a user, I want to log in securely to the child managment system. | Authentication must use JWT with a refresh mechanism. | 3 |
 | aikCloud03 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 5 |
 | aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 |
