@@ -18,7 +18,7 @@ Following steps are taken in order to keep the Sprint dates:
 
 Total hours worked: 13h  
 Total effort: 3  
-Velocity:
+Velocity: 4,3
 
 <br>
 <br>
@@ -31,7 +31,7 @@ Velocity:
 
 Total hours worked: 16h  
 Total effort: 3  
-Velocity:
+Velocity: 5,5
 
 <br>
 <br>
@@ -45,7 +45,7 @@ Velocity:
 
 Total hours worked:  20h  
 Total effort: 3  
-Velocity:
+Velocity: 6,6
 
 <br>
 <br>
@@ -58,7 +58,7 @@ Velocity:
 
 Total hours worked: 22h  
 Total effort:  11  
-Velocity:
+Velocity: 2
 
 <br>
 <br>
