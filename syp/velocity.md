@@ -1,4 +1,4 @@
-### Summary
+## Summary
 
 |Calculation Set|Included Stories|Completed Effort|Projected Time (hrs)|Velocity (hrs/effort)|
 |---|---|---|---|---|
@@ -22,7 +22,7 @@ Recalculated total (without outliers):
 |**New Avg Velocity**|149.34 ÷ 48.05 = **3.11 hrs/effort** ✅|
 
 ---
-### All Stories (Planning + Others)
+## All Stories (Planning + Others)
 
 - **Projected Total Time** = actual_time ÷ completion
 - **Completed Effort** = effort × completion
@@ -50,7 +50,7 @@ Velocity = hours/effort ​≈ ==6.73==
 
 ---
 
-### All Stories EXCEPT Planning
+## All Stories EXCEPT Planning
 
 |Story|Effort|Time|Completion|Completed Effort|Projected Time|Velocity|
 |---|---|---|---|---|---|---|
@@ -92,9 +92,9 @@ Outliers:
 | aikMvp05       | 3      | 100%       | 2    | 2              | 0.67                |
 
 
-### Issues
+## Issues
 
-#### 🚨 Major Outliers:
+### 🚨 Major Outliers:
 
 1. **aikCloud03** – 13 effort, only 5% complete, already 8h spent → extrapolates to 160h
     
