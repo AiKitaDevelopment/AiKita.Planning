@@ -5,6 +5,23 @@
 |**Velocity 1** (All)|Planning + All others|55.2|371.67|**6.73**|
 |**Velocity 2** (Non-Plan)|Only implementation stories|50.2|342.67|**6.83**|
 
+
+Exclude outliers:
+
+- `aikCloud03` (effort 13, projected 160h)
+    
+- `aikCore01` (effort 5, projected 33.3h)
+    
+
+Recalculated total (without outliers):
+
+|Metric|Value|
+|---|---|
+|Adjusted Completed Effort|50.2 - (0.65 + 1.5) = **48.05**|
+|Adjusted Time|342.67 - (160 + 33.33) = **149.34**|
+|**New Avg Velocity**|149.34 ÷ 48.05 = **3.11 hrs/effort** ✅|
+
+
 ### All Stories (Planning + Others)
 
 - **Projected Total Time** = actual_time ÷ completion
@@ -92,17 +109,3 @@ Outliers:
     > Straightforwardly overbudgeted compared to the original effort size.
     
 
-Exclude outliers:
-
-- `aikCloud03` (effort 13, projected 160h)
-    
-- `aikCore01` (effort 5, projected 33.3h)
-    
-
-Recalculated total (without outliers):
-
-|Metric|Value|
-|---|---|
-|Adjusted Completed Effort|50.2 - (0.65 + 1.5) = **48.05**|
-|Adjusted Time|342.67 - (160 + 33.33) = **149.34**|
-|**New Avg Velocity**|149.34 ÷ 48.05 = **3.11 hrs/effort** ✅|
