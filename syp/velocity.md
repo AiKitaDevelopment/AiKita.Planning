@@ -89,20 +89,3 @@ Outliers:
 | aikMvp05       | 3      | 100%       | 2    | 2              | 0.67                |
 
 
-## Issues
-
-### 🚨 Major Outliers:
-
-1. **aikCloud03** – 13 effort, only 5% complete, already 8h spent → extrapolates to 160h
-    
-    > This task **alone** adds **160h / 13 = 12.31 velocity**, and it’s **barely started**.
-    
-2. **aikCore01** – 5 effort, 30% done, 10h used → extrapolates to 33.33h total
-    
-    > Velocity = 6.67 — this is also high.
-    
-3. **aikSec03** – 3 effort, already 20h spent
-    
-    > Straightforwardly overbudgeted compared to the original effort size.
-    
-
