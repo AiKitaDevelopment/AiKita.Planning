@@ -8,11 +8,8 @@
 
 Exclude outliers:
 
-- `aikCloud03` (effort 13, projected 160h - probably typo)
+- `aikSec01` 
     
-- `aikCore01` (effort 5, projected 33.3h - probably typo)
-    
-
 Recalculated total (without outliers):
 
 |Metric|Value|
