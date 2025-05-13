@@ -8,7 +8,7 @@
 
 Exclude outliers:
 
-- `aikSec01` - Effort 21 (est. 120 hrs)
+- `aikSec01` - Effort 21 (est. 120hrs)
     
 Recalculated total (without outliers):
 
