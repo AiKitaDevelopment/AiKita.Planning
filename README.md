@@ -15,6 +15,8 @@
 [Velocity](syp/velocity.md)
 <br><br>
 [Projection](syp/projection.md)
+<br><br>
+[Sprints](syp/sprints_overview.md)
 
 <br><br>
 # Timeline
