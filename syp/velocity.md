@@ -21,7 +21,7 @@ Recalculated total (without outliers):
 |Adjusted Time|342.67 - (160 + 33.33) = **149.34**|
 |**New Avg Velocity**|149.34 ÷ 48.05 = **3.11 hrs/effort** ✅|
 
-
+---
 ### All Stories (Planning + Others)
 
 - **Projected Total Time** = actual_time ÷ completion
