@@ -11,6 +11,10 @@
 [Process documentation](syp/ProcessDocumentation.md)
 <br><br>
 [Quality commitment statement](syp/Quality_commitment.md)
+<br><br>
+[Velocity](syp/velocity.md)
+<br><br>
+[Projection](syp/projection.md)
 
 <br><br>
 # Timeline
