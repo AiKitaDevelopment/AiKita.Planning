@@ -9,7 +9,11 @@
 | aikSec04 |     5     |  2  |    10h     |   Code snipets reduced duration of task.   |   [Sprint4](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-4)   |
 | aikCloud01 |     3     |  2  |    10h     |   Code snipets reduced duration of task.   |   [Sprint4](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-4)   |
 | aikMvp4 |     3     |  2  |    2h     |     Code snipets reduced duration of task.   |   [Sprint4](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-4)    |
-|  |          |    |           |        |   [Sprint5](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-5)   |
+| aikUs04 |    3      |  1  |      6h     |        |   [Sprint5](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-5)   |
+| aikUs06 |    3      |  2  |      4h     |        |   [Sprint5](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-5)   |
+| aikCore03 |    3      |  2 |      5h     |        |   [Sprint5](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-5)   |
+| aikData01 |    5      |  1 |      10h     |        |   [Sprint5](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-5)   |
+| aikData02 |    8      |  3 |      10h     |        |   [Sprint5](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-5)   |
 
 
 ---
