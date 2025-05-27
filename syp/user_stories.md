@@ -14,9 +14,9 @@
 | aikUs01 | 1    | UI/UX            | As a teacher, I want a clean and intuitive user interface, so I can navigate the application easily. | The UI must follow modern design principles and receive at least 80% positive usability feedback. | 13 | 20 | 75%
 | aikUs02 | 3    | UI/UX            | As a user I want an accessible UI where I can adjust colors, font size and button size to my needs. | The UI must be adjustable by the user within a reasonable range, according to EU Accessibility regulations. | 8 | 6,5 | 75%
 | aikUs03 | 4    | UI/UX            | As a user I want all graphs to be easily visible even as a user with light visual impairments.| Generated charts and graphs are adjustable by color and size. | 8 |
-| aikUs04 | 1    | Child Management | As a teacher, I want to manage child information (add, edit, delete) so my class list remains accurate. | The system must allow adding, modifying, and removing child records, with real-time UI updates. | 3 |
+| aikUs04 | 1    | Child Management | As a teacher, I want to manage child information (add, edit, delete) so my class list remains accurate. | The system must allow adding, modifying, and removing child records, with real-time UI updates. | 3 |  6 | 100%
 | aikUs05 | 5    | Feedback         | As a teacher, I want to provide feedback on the application, so it can be continuously improved. | A feedback form must allow submission with categorization (bug, feature request, general). | 5 |
-| aikUs06 | 2    | Child Management | As a teacher, I want to search for a child by name or ID, so I can quickly find their details. | Search results should be returned within 500ms, ranked by relevance. | 3 |
+| aikUs06 | 2    | Child Management | As a teacher, I want to search for a child by name or ID, so I can quickly find their details. | Search results should be returned within 500ms, ranked by relevance. | 3 |  4 | 100%
 
 ---
 
@@ -39,7 +39,7 @@
 |-----------|------|-----------------|-------------|---------------------------------|--------|------|--------|
 | aikCore01 | 1   | Dashboard        | As an admin, I want to view all submitted entries in a structured dashboard. | The admin UI must display stored entries with filtering, sorting, and pagination. | 5 |  10 | 30% |
 | aikCore02 | 2   | Sync             | As a user, I want to sync my data to a remote database. | The .NET backend must store data in PostgreSQL and track sync events with logs. | 13 | 20 | 100% ||
-| aikCore03 | 2   | Data Management  | As a user, I want to delete stored records. | Each entry must have a delete button with a confirmation prompt. | 3 |
+| aikCore03 | 2   | Data Management  | As a user, I want to delete stored records. | Each entry must have a delete button with a confirmation prompt. | 3 | 5 | 100%
 | aikCore04 | 2   | UI/UX            | As a user, I want a warning before closing the app with unsaved changes. | The app must show a confirmation dialog when unsaved changes exist. | 2 |
 | aikCore05 | 4   | Dashboard        | As a user, I want to see my recent activity in a sidebar. | A sidebar must show a log of recent interactions (e.g., submissions, edits). | 5 |
 | aikCore06 | 4  | Dashboard      | As an admin, I want an overview over database interactions in graphs | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs. |   13   |   5  | 10%  |
@@ -49,8 +49,8 @@
 ## Data Management & Reports  
 | ID        | Prio | Epic               | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status |
 |-----------|------|--------------------|-------------|---------------------------------|--------|------|--------|
-| aikData01 | 1   | Child Management   | As a user, I want to manage child lists for better organization. | I can create, modify, and delete child lists. | 5 |
-| aikData02 | 3   | Progress Tracking  | As a user, I want to track and review a child's progress. | The system must allow logging and filtering of observations over time. | 8 |
+| aikData01 | 1   | Child Management   | As a user, I want to manage child lists for better organization. | I can create, modify, and delete child lists. | 5 | 10  |100%
+| aikData02 | 3   | Progress Tracking  | As a user, I want to track and review a child's progress. | The system must allow logging and filtering of observations over time. | 8 | 10 | 100%
 | aikData03 | 4   | Reports            | As a user, I want to export child data into tables. | I can generate and download CSV or Excel files. | 2 |
 | aikData04 | 4   | Reports            | As a user, I want to visualize child performance. | The system must generate charts and graphs from stored data. | 8 |
 
