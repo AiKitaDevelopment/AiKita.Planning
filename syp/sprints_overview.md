@@ -65,7 +65,16 @@ Velocity: 2
 
 ## :calendar: Sprint 5
 #### :hourglass: Sprint Duration: May 16 - May 31 
-:round_pushpin: tbd <br>
+:round_pushpin: Child managment system added <br>
+:round_pushpin: Child database integrated into backend <br>
+:round_pushpin: tracking log data per child added <br>
+:round_pushpin: Data sets managment expanded with delete and filter options <br>
+
+Total hours worked: 35h   
+Total effort: 21   
+Velocity: 1.7   
+
+
 
 
 ---
