@@ -46,5 +46,7 @@ The following QA practices and goals define our standard:
 |------|-----------|-------------|-------------|
 | 01.05.2025 | Entity Unit Tests | 80% completed | Implemented for all entities (backend) and their local validation excluding fulldata. | 
 | 07.05.2025 | Entity Unit Tests | 30% completed | Implemented for all entities (backend) and their global validation uncluding fulldata. | 
+| 20.05.2025 | API Backend Testing | 100% completed | Validated backend endpoints via Postman | 
+| 27.05.2025 | Validated end-to-end data integrity | 100% completed | Cross-checking backend database entries (via SQL Manager) with frontend output | 
 
 
