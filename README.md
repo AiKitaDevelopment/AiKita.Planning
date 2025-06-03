@@ -6,6 +6,8 @@
 - Jürgen Huber  
 
 # Links
+[Project Proposal](https://github.com/riosarah/AiKita?tab=readme-ov-file)
+
 [User stories](syp/user_stories.md)
 <br><br>
 [Process documentation](syp/ProcessDocumentation.md)
