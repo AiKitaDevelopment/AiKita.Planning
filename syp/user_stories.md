@@ -16,7 +16,7 @@
 | aikUs03 | 4    | UI/UX            | As a user I want all graphs to be easily visible even as a user with light visual impairments.| Generated charts and graphs are adjustable by color and size. | 8 |
 | aikUs04 | 1    | Child Management | As a teacher, I want to manage child information (add, edit, delete) so my class list remains accurate. | The system must allow adding, modifying, and removing child records, with real-time UI updates. | 3 |  6 | 100%
 | aikUs05 | 5    | Feedback         | As a teacher, I want to provide feedback on the application, so it can be continuously improved. | A feedback form must allow submission with categorization (bug, feature request, general). | 5 |
-| aikUs06 | 2    | Child Management | As a teacher, I want to search for a child by name or ID, so I can quickly find their details. | Search results should be returned within 500ms, ranked by relevance. | 3 |  4 | 100%
+| aikUs06 | 2    | Child Management | As a teacher, I want to search for a child by name or ID, so I can quickly find their details. | Search results should be ranked by relevance. | 3 |  4 | 100%
 
 ---
 
