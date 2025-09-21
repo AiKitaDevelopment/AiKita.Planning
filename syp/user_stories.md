@@ -17,10 +17,10 @@
 | aikUs03 | 4    | UI/UX            | Als Erzieher möchte ich eine Liste aller Kinder in meiner Gruppe sehen, damit ich schnell auf ihre Daten zugreifen kann.| Kinderliste wird korrekt angezeigt. | 8 |
 | aikUs04 | 1    | Child Management | As a teacher, I want to manage child information (add, edit, delete) so my class list remains accurate. | The system must allow adding, modifying, and removing child records, with real-time UI updates. | 3 |  6 | 100%
 | aikUs05 | 2    | Child Management | As a teacher, I want to search for a child by name, so I can quickly find their details. | Search results should be ranked by relevance. | 3 |  4 | 100%
-| aikUs06 | 2    | Child Management | Als Erzieher möchte ich ein neues Kind hinzufügen können, damit ich die Informationen neuer Kinder direkt in die App einpflegen kann. | Neues Kind kann hinzugefügt und in der Liste angezeigt werden. | 3 |  4 | 100
+| aikUs06 | 2    | Child Management | Als Erzieher möchte ich ein neues Kind hinzufügen können. | Neues Kind kann hinzugefügt und in der Liste angezeigt werden. | 3 |  4 | 100
 | aikUs07 | 2    | Child Management | Als Nutzer möchte ich Beobachtungen zu einem Kind eintragen und abrufen können. | Beobachtung kann eingefügt werden und ist nach Speicherung abrufbar.  | 3 |  4 | 100
-| aikUs07 | 2    | Child Management | Als Nutzer möchte ich KI basierte Aktivitäten zu einer Beobachutung erhalten. | Aktivität wird mittels KI erstellt. | 3 |  4 | 
-| aikUs07 | 2    | Child Management | Als Nutzer möchte ich KI basierte Aktivitäten ändern können. | Aktivität wird mittels KI erstellt. | 3 |  4 | 
+| aikUs08 | 2    | Child Management | Als Nutzer möchte ich KI basierte Vorschläge zu einer Beobachutung erhalten. | Vorschläge zu Aktivtätt und Einordnung in folgende Themen Entwicklungsbereich, Teilbereich, Unterbereich und	Ziel wird mittels KI erstellt. | 3 |  4 | 
+| aikUs09 | 2    | Child Management | Als Nutzer möchte ich alle KI basierten Vorschläge vor dem Speichern ändern können. | User können alle KI-basierten Vorschläge vor dem Speichern ändern. | 3 |  4 | 
 
 ---
 
