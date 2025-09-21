@@ -11,12 +11,16 @@
 ## User Focus
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|
-| aikUs01 | 1    | UI/UX            | As a teacher, I want a clean and intuitive user interface, so I can navigate the application easily. | The UI must follow modern design principles and receive at least 80% positive usability feedback. | 13 | 20 | 75%
-| aikUs02 | 3    | UI/UX            | As a user I want an accessible UI where I can adjust colors, font size and button size to my needs. | The UI must be adjustable by the user within a reasonable range, according to EU Accessibility regulations. | 8 | 6,5 | 75%
-| aikUs03 | 4    | UI/UX            | As a user I want all graphs to be easily visible even as a user with light visual impairments.| Generated charts and graphs are adjustable by color and size. | 8 |
+| aikUs01 | 1    | UI/UX            | Als Nutzer möchte ich mich über ein Menü durch die App navigieren können, damit ich schnell zu verschiedenen Bereichen wechseln kann. | Menü zeigt alle Links korrekt, Navigation funktioniert. | 13 | 20 | 75%
+| aikUs02 | 3    | UI/UX            | Als Nutzer möchte ich mich anmelden können, damit ich Zugriff auf meine personalisierten Inhalte habe. | Login funktioniert, Nutzer wird auf Dashboard weitergeleitet. | 8 | 6,5 | 75%
+| aikUs03 | 3    | UI/UX            | Als Nutzer möchte ich mich abmelden können, damit meine Daten sicher bleiben. | Logout funktioniert, Nutzer wird zur Login-Seite weitergeleitet. | 8 | 6,5 | 75%
+| aikUs03 | 4    | UI/UX            | Als Erzieher möchte ich eine Liste aller Kinder in meiner Gruppe sehen, damit ich schnell auf ihre Daten zugreifen kann.| Kinderliste wird korrekt angezeigt. | 8 |
 | aikUs04 | 1    | Child Management | As a teacher, I want to manage child information (add, edit, delete) so my class list remains accurate. | The system must allow adding, modifying, and removing child records, with real-time UI updates. | 3 |  6 | 100%
-| aikUs05 | 5    | Feedback         | As a teacher, I want to provide feedback on the application, so it can be continuously improved. | A feedback form must allow submission with categorization (bug, feature request, general). | 5 |
-| aikUs06 | 2    | Child Management | As a teacher, I want to search for a child by name or ID, so I can quickly find their details. | Search results should be ranked by relevance. | 3 |  4 | 100%
+| aikUs05 | 2    | Child Management | As a teacher, I want to search for a child by name, so I can quickly find their details. | Search results should be ranked by relevance. | 3 |  4 | 100%
+| aikUs06 | 2    | Child Management | Als Erzieher möchte ich ein neues Kind hinzufügen können, damit ich die Informationen neuer Kinder direkt in die App einpflegen kann. | Neues Kind kann hinzugefügt und in der Liste angezeigt werden. | 3 |  4 | 100
+| aikUs07 | 2    | Child Management | Als Nutzer möchte ich Beobachtungen zu einem Kind eintragen und abrufen können. | Beobachtung kann eingefügt werden und ist nach Speicherung abrufbar.  | 3 |  4 | 100
+| aikUs07 | 2    | Child Management | Als Nutzer möchte ich KI basierte Aktivitäten zu einer Beobachutung erhalten. | Aktivität wird mittels KI erstellt. | 3 |  4 | 
+| aikUs07 | 2    | Child Management | Als Nutzer möchte ich KI basierte Aktivitäten ändern können. | Aktivität wird mittels KI erstellt. | 3 |  4 | 
 
 ---
 
