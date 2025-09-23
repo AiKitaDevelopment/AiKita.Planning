@@ -18,39 +18,51 @@
 
 ---
 
- 
+## Completed User stories
 
-</br></br>
-### Tracking Table (for future sprints)
-| Story ID  | EffortEst | Prio | Actual Time | Changes |
-|-----------|-----------|------|-------------|---------|
-| aikUs01   | 8         | 1    | -           | -       |
-| aikUs02   | 13         | 3    | -           | -       |
-| aikUs03   | 8         | 4    | -           | -       |
-| aikUs04   | 3         | 1    | -           | -       |
-| aikUs05   | 5         | 5    | -           | -       |
-| aikUs06   | 3         | 2    | -           | -       |
-| aikMvp01  | 3         | 1    | -           | -       |
-| aikMvp02  | 2         | 1    | -           | -       |
-| aikMvp03  | 5         | 1    | -           | -       |
-| aikMvp05  | 3         | 2    | -           | -       |
-| aikMvp06  | 3         | 1    | -           | -       |
-| aikMvp07  | 2         | 2    | -           | -       |
-| aikMvp08  | 2         | 3    | -           | -       |
-| aikCore01 | 5         | 1    | -           | -       |
-| aikCore02 | 13         | 2    | -           | -       |
-| aikCore03 | 3         | 2    | -           | -       |
-| aikCore04 | 2         | 2    | -           | -       |
-| aikCore05 | 5         | 4    | -           | -       |
-| aikCore06 | 13        | 4   | -           | -       |
-| aikData01 | 5         | 1    | -           | -       |
-| aikData02 | 8         | 3    | -           | -       |
-| aikData03 | 2         | 4    | -           | -       |
-| aikData04 | 8         | 4    | -           | -       |
-| aikSec01  | 21         | 1    | -           | -       |
-| aikSec02  | 3         | 2    | -           | -       |
-| aikCloud02| 3         | 2    | -           | -       |
-| aikCloud03| 13         | 3    | -           | -       |
-| aikCloud04| 8         | 3    | -           | -       |
 
+## Planning and Strategies
+| ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| aikPlan01 | 1    | Planning & Strategy | As a product manager, I want to create a roadmap to break development into clear milestones. | Milestones and goals are clearly defined. Work focus is dictated by a timeline with concrete deadlines. | 3 | 13 | 100% | |
+| aikPlan02 | 1    | Planning & Strategy | As a product manager, I want to organize and design the project’s workflow to maximize efficiency. | Weekly meetings are set and responsibilities are defined. Responsibility for individual tasks is assigned. | 3 | 16 | 100% | |
+| aikUs04 | 1    | Child Management | As a user, I want to manage child information (add, edit, delete) so my class list remains accurate. | The system must allow adding, modifying, and removing child records, with real-time UI updates. | 3 | 6 | 100% | |
+| aikUs05 | 2    | Child Management | As a user, I want to search for a child by name, so I can quickly find their details. | Search results should be ranked by relevance. | 3 | 4 | 100% | |
+| aikUs06 | 2    | Child Management | As a user, I want to add a new child, so the system stays up-to-date. | New child can be added and appears in the list. | 3 | 4 | 100 | |
+| aikUs07 | 2    | Child Management | As a user, I want to record and view observations about a child. | Observations can be added and are retrievable after saving. | 3 | 4 | 100 | |
+
+
+## MVP
+| ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| aikMvp04 | 2  | Data Processing  | As a developer, I want to apply field-specific anonymization strategies to backend data access. | Email → hashed, names → initials, phone → masked (***-1234). | 3 | 2 | 100% | |
+| aikMvp05 | 2  | Data Processing  | As a developer, I want to apply field-specific anonymization strategies to frontend data access. | Email → hashed, names → initials, phone → masked (***-1234). | 3 | 2 | 100% | |
+
+
+## Core System (MVP+)
+| ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| aikCore02 | 2   | Sync             | As a user, I want to sync my data to a remote database. | The .NET backend must store data in PostgreSQL and track sync events with logs. | 13 | 20 | 100% | |
+| aikCore03 | 2   | Data Management  | As a user, I want to delete stored records. | Each entry must have a delete button with a confirmation prompt. | 3 | 5 | 100% | |
+
+## Data Management & Reports 
+| ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+| aikData01 | 1   | Child Management   | As a user, I want to manage child lists for better organization. | I can create, modify, and delete child lists. | 5 | 10 | 100% | |
+| aikData02 | 3   | Progress Tracking  | As a user, I want to track and review a child's progress. | The system must allow logging and filtering of observations over time. | 8 | 10 | 100% | |
+
+## Security & Validation
+| ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+| aikSec03  | 2    | Security | As a user, I want file uploads to be validated. | JSON uploads must be schema-validated before processing. | 3 | 20 | 100% | |
+| aikSec04  | 2    | Security | As an admin, I want audit logs to track data access. | The system must log all read/write actions for compliance. | 5 | 10 | 100% | |
+
+
+## Cloud API + Admin
+| ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+| aikCloud01 | 2   | API   | As a user, I want to log in securely to the database. | Authentication must use JWT with a refresh mechanism. | 3 | 10 | 100% | |
 
