@@ -8,6 +8,7 @@
 | aikUs03 | 3    | UI/UX            | As a user, I want to log out, so my data remains secure. | Logout works, user is redirected to the login page. | 8 | 6,5 | 75% | Jürgen |
 | aikUs04 | 4    | UI/UX            | As a user, I want be sure that closing a tab in the browser, logs me out. | SessionStorge was used achieve this. | 8 | 6,5 | 100% |Jürgen |
 | aikUs05 | 4    | UI/UX            | As a user, I want to see a list of all children in my group, so I can quickly access their information.| Child list is displayed correctly. | 8 | 4 | 75% |Jürgen |
+| aikUs06 | 3    | UI/UX            | As a user, I want to see a list of all observations and for one child only as well.| Previous observations are listed. | 8 | 4 | 75% |Jürgen |
 
 
 ## MVP
