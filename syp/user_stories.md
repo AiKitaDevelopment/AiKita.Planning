@@ -58,52 +58,12 @@
 | aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 | | | |
 
 
-## Data Preparation & Data quality
-| ID   | Prio | Epic                       | User Story                                                                                                                               | COS (Criteria of Satisfaction)                                     | Effort | Time | Status | Owner |
-| ---- | ---- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------ | ---- | ------ | ----- |
-| dq01 | 1    | Data Preparation & Quality | As a Data Scientist, I want to merge CSV files from different developmental areas, so I have a unified training dataset.                 | All data sources are merged and validated correctly.               | 3      | 8    | 100%     |   Rio    |
-| dq02 | 1    | Data Preparation & Quality | As a Data Scientist, I want to check the structure and number of columns in input files, so data consistency is ensured.                 | Files with mismatched structure are detected and logged.           | 1      | 3    | 100%     |   Rio    |
-| dq03 | 1    | Data Preparation & Quality | As a Data Scientist, I want to preprocess texts, so noise in the data is reduced.                                                        | Clean and standardized text is available in the dataset. Text is preprocessed and tokenized in preparation for model training.           | 3      | 8    | 100%     |    Rio   |
-| dq04 | 1    | Data Preparation & Quality | As a team member, I want to package the project so that others can install and use it with a requirements.txt and documentation. | All dependencies are listed, project runs after pip install -r requirements.txt, docs available.   | 2      | 5    | 100%     |    Rio   |
-| dq05 | 1    | Data Preparation & Quality | As a developer, I want to integrate SpaCy for deeper NLP analysis in preprocessing (e.g., lemmatization or POS tagging).   | SpaCy models load correctly. Extended features available for preprocessing if needed. |  2    | 4  | 100%     |   Rio    |
-| dq06 | 1    | Data Preparation & Quality | As a Data Scientist, I want to transform labels into multi-label format, so multiple assignments per observation are captured correctly. | Labels are available as multi-label binarization. Sclearn multilabling algorithm is used.                  | 2      | 5    | 100%     |    Rio   |
-| dq07 | 1    | Data Preparation & Quality | As a Data Scientist, I want to iteratively clean data whenever the AI reveals weaknesses, so dataset quality improves continuously.      | Iterative cleaning is documented and integrated into the workflow. |  13    | 30   | 100%     |   Rio    |
-
-
-
-## ML Model Training and Features
-| ID   | Prio | Epic                      | User Story                                                                                                               | COS (Criteria of Satisfaction)                             | Effort | Time | Status | Owner |
-| ---- | ---- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------ | ---- | ------ | ----- |
-| mf01 | 1    | Model Training & Features | As a Data Scientist, I want to convert observations into Sentence-BERT vectors, so semantic similarities are captured and word positioning is taken into consideration.   | SBERT vectors are available for training and evaluation.   | 5      | 10   | 100%     |    Rio   |
-| mf02 | 1    | Model Training & Features | As a Data Scientist, I want to store vectors in Atlas MongoDB, so I can reuse them later.                                | Vectors can be stored and retrieved from MongoDB.          | 3      | 6   | 100%     |   Rio    |
-| mf03 | 1    | Model Training & Features | As a Data Scientist, I want to train a multi-label model, so observations can belong to multiple developmental areas.    | Model is trained successfully. Most likely Areas are logged in descending order of likelyhood. . | 4      | 10   | 100%     |   Rio    |
-| mf04 | 1    | Model Training & Features | As a Data Scientist, I want to test different thresholds, so I can find the best trade-off between precision and recall. | Threshold evaluation with comparison plots is available.   | 5      | 12    | 100%     |    Rio   |
-| mf05 | 1    | Model Training & Features | As a Data Scientist, I want to implement variable clustering sizes to optimize my sorting accuracy while keeping an acceptable degree of sepcialization.       | Amount of clusters can be manually controlled. Accuracy is logged. | 4      | 12   | 100%     |    Rio   |
-| mf06 | 1    | Model Training & Features | As a Data Scientist, I want to implement TF-IDF features for subsections, so specific terms get stronger weights.        | TF-IDF features are integrated into the training pipeline. | 4      | 12   | 100%     |    Rio   |
-
-
-## ML Model Evaluation & Analysis
-| ID   | Prio | Epic                  | User Story                                                                                                                       | COS (Criteria of Satisfaction)                                    | Effort | Time | Status | Owner |
-| ---- | ---- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------ | ---- | ------ | ----- |
-| ea01 | 1    | Evaluation & Analysis | As a Data Scientist, I want to generate classification reports, so I can measure model quality per label.                        | Reports with precision, recall, F1-score per class are available. | 2      | 6    | 100%     |    Rio   |
-| ea02 | 1    | Evaluation & Analysis | As a Data Scientist, I want to calculate and save confusion matrices, so misclassifications are visible.                         | Multi-label confusion matrix is available as CSV/plot.            | 3      | 8    | 100%     |    Rio   |
-| ea03 | 1    | Evaluation & Analysis | As a Data Scientist, I want to log misclassified observations in a CSV, so I can analyze weaknesses.                             | CSV with misclassification examples is generated.                 | 3      | 8    | 100%     |    Rio   |
-| ea04 | 1    | Evaluation & Analysis | As a Data Scientist, I want to output the most common words and top words per class, so I can identify linguistic patterns.      | Word frequency lists are available in reports/logs for TF-idf models with single labeling algorithm.               | 2      | 5    | 100%     |    Rio   |
-| ea05 | 1    | Evaluation & Analysis | As a Data Scientist, I want to visualize precision-recall curves per class for multilabeling algorithms, so I can understand variations in model performance. | PR curves per ml models with sclearn algorithm are plotted.                                  | 3      | 10   | 100%     |    Rio   |
-
 
 ## Data Vizualisation & Insights
 | ID   | Prio | Epic                     | User Story                                                                                              | COS (Criteria of Satisfaction)                                      | Effort | Time | Status | Owner |
 | ---- | ---- | ------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
-| vi01 | 1    | Visualization & Insights | As a Data Scientist, I want to visualize label distribution, so I can detect imbalanced datasets early. | Bar chart with label support is available.                          | 2      | 6    | 100%     |   Rio    |
 | vi02 | 1    | Visualization & Insights | As a Data Scientist, I want to visually explore vectors and the dataset, so I can detect data patterns. | Clustering/dimensionality reduction (e.g., PCA/TSNE) is visualized. | 4      | 14   | 0%     |   Rio    |
 
-
-## Deployment & Reuse
-| ID   | Prio | Epic               | User Story                                                                                                | COS (Criteria of Satisfaction)                    | Effort | Time | Status | Owner |
-| ---- | ---- | ------------------ | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------ | ---- | ------ | ----- |
-| dw01 | 1    | Deployment & Reuse | As a Data Scientist, I want to save the trained model and the label binarizer, so I can reuse them later. | Model files are stored as `.pkl` and versioned.   | 2      | 6    | 100%     |    Rio   |
-| dw02 | 1    | Deployment & Reuse | As a Developer, I want to load saved models and vectorizers, so I can run predictions in production.      | Loading and prediction on new observations works. | 3      | 8    | 0%     |    Rio   |
 
 
 ## LLM 
