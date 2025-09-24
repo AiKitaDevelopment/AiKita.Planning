@@ -42,6 +42,7 @@
 | **mf02**      | 3         | 1    | 6h   |      | [Sprint7](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-7) |
 | **mf03**      | 4         | 1    | 10h   |     | [Sprint7](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-7) |
 | **dw01**      | 2         | 1    | 6h   |   | [Sprint7](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-7) |
+| dw02 | 1    | | 3      | 8    | 6h | [Sprint7](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-7) |
 | **mf04**      | 5         | 1    | 12h   |     | [Sprint8](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-8) |
 | **mf05**      | 4         | 1    | 12h    |    | [Sprint8](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-8) |
 | **mf06**      | 4         | 1    | 12h    |      | [Sprint8](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-8) |
