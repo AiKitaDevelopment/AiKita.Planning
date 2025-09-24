@@ -57,8 +57,6 @@
 | aikCloud03 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 13 | 8 | 5% | |
 | aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 | | | |
 
-aikClean01;1;Text Preprocessing;As a data scientist, I want to clean and preprocess raw text data using stemming and regex so that the model can work with consistent input.;Preprocessed text is saved in the correct format. Stopwords, special chars, and noise are removed properly.;3;10;100%
-
 
 ## Data Preparation & Data quality
 | ID   | Prio | Epic                       | User Story                                                                                                                               | COS (Criteria of Satisfaction)                                     | Effort | Time | Status | Owner |
