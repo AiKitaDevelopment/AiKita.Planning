@@ -33,6 +33,33 @@
 
 ---
 
+## Week planner
+| ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| aikEx01 | 4  | Weekplanner       | A a teacher i want to access my week planner. | Navigation to week planner is implemented and works correctly. | 3 | 5 | 0% | |
+| aikEx02 | 4  | Weekplanner       | A a teacher i want to be able to plan my week in a planer. | I can input my planned activities into my week planer. | 5 | 10 | 0% | |
+| aikEx03 | 4  | Weekplanner       | A a teacher i want to import planned activties to my week planer. | The week plan can import activities from the planning logs off the last two weeks. | 5 | 10 | 0% | |
+| aikEx04 | 4  | Weekplanner       | A a teacher i want to export and download my week planer into a pdf file. | The week planer can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | |
+
+
+---
+
+## Reflection from
+| ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| aikRef01 | 4  | Reflection form     | A a teacher i want to see my reflection form | Reflection form is accessable from menu.| 5 | 10 | 0% | |
+| aikRef02 | 4  | Reflection form     | A a teacher i want to reflect on my observations in a seperate form. | Input can be saved on reflection form.| 8 | 15 | 0% | |
+| aikRef03 | 4  | Reflection form   | A a teacher i want to see my weekly recent reflection form upon loading reflection form. | Wekkly Reflection form is automatically loaded. If no input has been made this week, the form is empty. Changes are tracked.| 5 | 10 | 0% | |
+| aikRef04 | 4  | Reflection form     | A a teacher i want to add my recent observations to my reflection form | Observations can be automatically added to reflection form.| 5 | 10 | 0% | |
+| aikRef05 | 4  | Reflection form     | A a teacher i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | |
+
+
+
+
+
+---
+
+
 ## Data Management & Reports  
 | ID        | Prio | Epic               | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |-----------|------|--------------------|-------------|---------------------------------|--------|------|--------|-------|
