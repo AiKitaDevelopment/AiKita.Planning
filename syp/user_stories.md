@@ -57,9 +57,13 @@
 | aikCloud03 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 13 | 8 | 5% | |
 | aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 | | | |
 
+aikClean01;1;Text Preprocessing;As a data scientist, I want to clean and preprocess raw text data using stemming and regex so that the model can work with consistent input.;Preprocessed text is saved in the correct format. Stopwords, special chars, and noise are removed properly.;3;10;100%
+
+
 ## Data Preparation & Data quality
 | ID   | Prio | Epic                       | User Story                                                                                                                               | COS (Criteria of Satisfaction)                                     | Effort | Time | Status | Owner |
 | ---- | ---- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------ | ---- | ------ | ----- |
+| dq00 | 1    | Data Preparation & Quality | As a data scientist, I want to clean and preprocess raw text data using stemming and regex so that the model can work with consistent input.| Preprocessed text is prepared for model training in the correct format. Stopwords, special chars, and noise are removed properly. | 3      | 8    | 100%     |   Rio    |
 | dq01 | 1    | Data Preparation & Quality | As a Data Scientist, I want to merge CSV files from different developmental areas, so I have a unified training dataset.                 | All data sources are merged and validated correctly.               | 3      | 8    | 100%     |   Rio    |
 | dq02 | 1    | Data Preparation & Quality | As a Data Scientist, I want to check the structure and number of columns in input files, so data consistency is ensured.                 | Files with mismatched structure are detected and logged.           | 1      | 3    | 100%     |   Rio    |
 | dq03 | 1    | Data Preparation & Quality | As a Data Scientist, I want to preprocess texts, so noise in the data is reduced.                                                        | Clean and standardized text is available in the dataset. Text is preprocessed and tokenized in preparation for model training.           | 3      | 8    | 100%     |    Rio   |
