@@ -75,6 +75,56 @@ Total effort: 21
 Velocity: 1.7   
 
 
+## :calendar: Sprint 6
+#### :hourglass: Sprint Duration: July 15 - July 31
+
+:round_pushpin: Vorbereitung und Strukturierung der Daten <br>
+:round_pushpin: Recherche von Online-Vektordatenbanken für Speicherung und effiziente Suche <br>
+:round_pushpin: Bereinigung und Normalisierung von Datensätzen <br>
+:round_pushpin: Aufbereitung der Daten für Training der ML-Modelle <br>
+
+Total hours worked: 43h
+Total effort: 8
+Velocity: 3,5
+
+<br> <br>
+## :calendar: Sprint 7
+#### :hourglass: Sprint Duration: August 1 - August 7
+
+:round_pushpin: Erstellung erster Machine-Learning-Modelle <br>
+:round_pushpin: Evaluierung von Trainingsparametern <br>
+:round_pushpin: Vorbereitung des Frontends für spätere Anbindung <br>
+:round_pushpin: Einschränkung und Definition der benötigten Kernfunktionalitäten <br>
+
+Total hours worked: 25h
+Total effort: 7
+Velocity: 3,6
+
+<br> <br>
+## :calendar: Sprint 8
+#### :hourglass: Sprint Duration: August 8 - August 15
+
+:round_pushpin: Entwicklung des Large Language Models (LLM) <br>
+:round_pushpin: Integration der vorbereiteten Daten in das Training <br>
+:round_pushpin: Durchführung erster Qualitätstests für LLM-Ergebnisse <br>
+:round_pushpin: Weiteres Feintuning und Validierung der Datenqualität <br>
+
+Total hours worked: 30h
+Total effort: 9
+Velocity: 3,3
+
+<br> <br>
+## :calendar: Sprint 9
+#### :hourglass: Sprint Duration: September 1 - September 15
+
+:round_pushpin: Definition und Dokumentation der Schnittstellen <br>
+:round_pushpin: Finalisierung und Korrektur der Data Transfer Objects (DTOs) <br>
+:round_pushpin: Sicherstellung der Konsistenz zwischen Backend- und Frontend-Schnittstellen <br>
+
+Total hours worked: 18h
+Total effort: 5
+Velocity: 3,6
+
 
 
 ---
