@@ -21,15 +21,22 @@
 | aikMvp07 | 2  | Export           | As a user, I want to export selected records, so I can use them externally. | A Download button must export the selected entries in a structured format. | 2 | | | |
 | aikMvp08 | 3  | Export           | As a user, I want to export multiple records at once. | A checkbox UI must allow selecting multiple records for batch export. | 2 | | | |
 
+
+
 ---
 
 ## Core System (MVP+)
 | ID        | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |-----------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikCore01 | 1   | Dashboard        | As an admin, I want to view all submitted entries in a structured dashboard. | The admin UI must display stored entries with filtering, sorting, and pagination. | 5 | 10 | 30% | |
-| aikCore04 | 2   | UI/UX            | As a user, I want a warning before closing the app with unsaved changes. | The app must show a confirmation dialog when unsaved changes exist. | 2 | | | |
-| aikCore05 | 4   | Dashboard        | As a user, I want to see my recent activity in a sidebar. | A sidebar must show a log of recent interactions (e.g., submissions, edits). | 5 | | | |
-| aikCore06 | 4  | Dashboard      | As an admin, I want an overview over database interactions in graphs | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs. | 13 | 5 | 10% | Rio |
+| aikCore01     | 1    | Dashboard       | As an admin, I want to view all submitted entries in a structured dashboard.                           | The admin UI must display stored entries with filtering, sorting, and pagination.                                                                      | 5      | 10   | 30%    |       |
+| aikCore04     | 2    | UI/UX           | As a user, I want a warning before closing the app with unsaved changes.                               | The app must show a confirmation dialog when unsaved changes exist.                                                                                    | 2      |      |        |       |
+| aikCore05     | 4    | Dashboard       | As a user, I want to see my recent activity in a sidebar.                                              | A sidebar must show a log of recent interactions (e.g., submissions, edits).                                                                           | 5      |      |        |       |
+| aikCore06     | 4    | Dashboard       | As an admin, I want an overview over database interactions in graphs                                   | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs.                                                | 13     | 5    | 10%    | Rio   |
+| **aikCore07** | 1    | Integration     | As a developer, I want a configured API base and CORS, so the frontend can reach the backend securely. | FE/BE base URL set via environment; CORS allows FE origin; HTTPS-only enforced; `/healthz` reachable; FE connectivity check passes.                    | 3      |      | 0%     |       |
+| **aikCore08** | 1    | Authentication  | As a user, I want login/logout integrated with the backend, so sessions are secure across FE and BE.   | JWT + refresh wired via HTTP interceptor; secure token storage; route guards for protected pages; logout clears session; 2 happy-path E2E tests green. | 5      |      | 0%     |       |
+| **aikCore09** | 2    | Data Management | As a user, I want end-to-end CRUD for children and observations, so I can manage records reliably.     | FE can create/read/update/delete via `/children` & `/observations`; optimistic UI with rollback on error; BE validation messages surfaced in UI.       | 8      |      | 0%     |       |
+| **aikCore10** | 2    | Reliability     | As a user, I want robust error handling and resilience to network/server failures.                     | Global HTTP error handling with user feedback; retries for idempotent GETs; 4xx vs 5xx differentiated; offline indicator & retry action.               | 3      |      | 0%     |       |
+| **aikCore11** | 2    | Testing         | As a team, we want integration & E2E tests, so regressions are caught early.                           | Cypress/Playwright flows for login + CRUD; contract checks via OpenAPI/Pact in CI; smoke tests after deploy; coverage report generated.                | 3      |      | 0%     |       |
 
 ---
 
@@ -53,8 +60,14 @@
 | aikRef04 | 4  | Reflection form     | A a teacher i want to add my recent observations to my reflection form | Observations can be automatically added to reflection form.| 5 | 10 | 0% | |
 | aikRef05 | 4  | Reflection form     | A a teacher i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | |
 
+---
 
-
+## Cloud Api & Admin
+| ID         | Prio | Epic | User Story                                                                                                  | COS (Criteria of Satisfaction)                                                                                                                                                                                          | Effort | Time | Status | Owner |
+| ---------- | ---- | ---- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
+| aikCloud05 | 1    | API  | As a developer, I want to provide versioned REST APIs for core entities, so clients can integrate reliably. | OpenAPI 3 spec published; endpoints for auth, children, observations, exports under `/api/v1`; request/response validation; standardized error model; Postman/Insomnia collection available; basic rate-limit in place. | 8      |      | 0%     |       |
+| aikCloud06 | 1    | API  | As a devops, I want to deploy the backend to the cloud, so it is accessible and maintainable.               | Docker image build; CI/CD pipeline to staging/prod; health endpoint `/healthz`; logs/metrics available; HTTPS enabled; zero-downtime rolling deploy & documented rollback.                                              | 8      |      | 0%     |       |
+| aikCloud07 | 1    | API  | As a devops, I want to run the application database in the cloud, so data is durable and secure.            | Managed DB provisioned; SSL enforced; network access restricted (VPC/IP allowlist); EF Core migrations executed; automated daily backups + retention; credentials stored via secrets manager.                           | 8      |      | 0%     |       |
 
 
 ---
@@ -98,3 +111,5 @@
 | ---- | ---- | ------------------ | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------ | ---- | ------ | ----- |
 | LLM01 | 1    | Ai predictions | As a user, I want AI-based suggestions for observations, so I can get guidance on activities and developmental categorization. | Suggestions for activity and categorization (area, sub-area, section and goal) are generated by AI. | 3 | 4 | | Mann |
 | LLM02 | 1    | ai result analisys | As a user, I want to edit all AI-based suggestions before saving, so the data reflects my judgment. | Users can modify all AI-generated suggestions before saving. | 3 | 4 | | Huber|
+| LLM03 | 1    | AI Integration | As a developer, I want to connect the AI model to the backend, so clients can request predictions. | Model offers an endpoint to receive observations and returns the full prediction dto. | 5      |      | 0%     |       |
+
