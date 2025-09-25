@@ -16,7 +16,6 @@
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
 | aikMvp01 | 1  | UI/UX            | As a user, I want to launch the app and see a clear welcome screen, so I know it is working. | Dashboard must load, after login, within 3s. | 3 | 1 | 100% | Huber |
 | aikMvp02 | 1  | Forms            | As a user, I want structured forms with validation, so I can enter correct data without errors. | Core features/forms must include validation for all fields and display clear error messages. | 2 | 6 | 25%| Huber |
-| aikMvp06 | 1  | Data Management  | As a user, I want to save and view anonymized data, so I can manage records efficiently. | Data should be saved via EF Core to SQLite, with a UI list for browsing entries. | 3 | | | EDIT - Rio |
 | aikMvp07 | 2  | Export           | As a user, I want to export selected records, so I can use them externally. | A Download button must be visible for all records. | 2 | 0 | 0 | Huber |
 
 
@@ -69,6 +68,7 @@
 | ID        | Prio | Epic     | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |-----------|------|---------|-------------|---------------------------------|--------|-------|--------|-------|
 | aikSec01  | 2    | Security | As a user, I want all sensitive data to be encrypted. | AES-256 encryption must be applied. | 21 | | | EDIT-Rio (aufteilen) |
+| aikSec99  | 2    | Security | As a developer I want to send authentification data to backend and receive temporary session token. | A valid session token is received by frontend and temporarily stored. | 8 | | | EDIT-Rio (aufteilen) |
 
 
 ---
