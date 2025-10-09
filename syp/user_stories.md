@@ -6,8 +6,8 @@
 | aikUs01 | 1    | UI/UX            | As a user, I want to navigate the app via a menu, so I can quickly switch between sections. | Menu displays links for planning, childlist and logs correctly. Navigation to these sites works. | 13 | 20 | 75% | Huber |
 | aikUs02 | 3    | UI/UX            | As a user, I want to log in, so I can access the content. | Login works, user is redirected to the dashboard. | 8 | 6,5 | 75% | Huber |
 | aikUs03 | 3    | UI/UX            | As a user, I want to log out, so my data remains secure. | Logout works, user is redirected to the login page. | 8 | 6,5 | 75% | Huber |
-| aikUs04 | 4    | UI/UX            | As a user, I want be sure that closing a tab in the browser, logs me out. | SessionStorge was used achieve this. | 8 | 6,5 | 100% | Huber |
-| aikUs05 | 4    | UI/UX            | As a user, I want to see a list of all children in my group, so I can quickly access their information.| Child list is displayed correctly. | 8 | 4 | 75% | Huber |
+| aikUs04 | 3    | UI/UX            | As a user, I want be sure that closing a tab in the browser, logs me out. | SessionStorge was used achieve this. | 8 | 6,5 | 100% | Huber |
+| aikUs05 | 3    | UI/UX            | As a user, I want to see a list of all children in my group, so I can quickly access their information.| Child list is displayed correctly. | 8 | 4 | 75% | Huber |
 | aikUs06 | 3    | UI/UX            | As a user, I want to see a list of all observations and for one child only as well.| Previous observations are listed. | 8 | 4 | 75% | Huber |
 
 
@@ -47,7 +47,7 @@
 | ID   | Prio | Epic                     | User Story                                                                                              | COS (Criteria of Satisfaction)                                      | Effort | Time | Status | Owner |
 | ---- | ---- | ------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
 | vi02 | 3    | Visualization & Insights | As a Data Scientist, I want to visually explore vectors and the dataset, so I can detect data patterns. | Clustering/dimensionality reduction (e.g., PCA/TSNE) is visualized. | 4      | 14   | 0%     |   Rio    |
-| vi03    | 4    | Dashboard       | As an admin, I want an overview over database interactions in graphs                                   | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs.                                                | 13     | 5    | 10%    | Rio   |
+| vi03    | 3    | Dashboard       | As an admin, I want an overview over database interactions in graphs                                   | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs.                                                | 13     | 5    | 10%    | Rio   |
 
 ---
 
@@ -89,10 +89,10 @@
 ## Week planner
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikEx01 | 4  | Weekplanner       | A a teacher i want to access my week planner. | Navigation to week planner is implemented and works correctly. | 3 | 5 | 0% | Rio |
-| aikEx02 | 4  | Weekplanner       | A a teacher i want to be able to plan my week in a planer. | I can input my planned activities into my week planer. | 5 | 10 | 0% | Rio |
-| aikEx03 | 4  | Weekplanner       | A a teacher i want to import planned activties to my week planer. | The week plan can import activities from the planning logs off the last two weeks. | 5 | 10 | 0% | Rio |
-| aikEx04 | 4  | Weekplanner       | A a teacher i want to export and download my week planer into a pdf file. | The week planer can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
+| aikEx01 | 3  | Weekplanner       | A a teacher i want to access my week planner. | Navigation to week planner is implemented and works correctly. | 3 | 5 | 0% | Rio |
+| aikEx02 | 3  | Weekplanner       | A a teacher i want to be able to plan my week in a planer. | I can input my planned activities into my week planer. | 5 | 10 | 0% | Rio |
+| aikEx03 | 3  | Weekplanner       | A a teacher i want to import planned activties to my week planer. | The week plan can import activities from the planning logs off the last two weeks. | 5 | 10 | 0% | Rio |
+| aikEx04 | 3  | Weekplanner       | A a teacher i want to export and download my week planer into a pdf file. | The week planer can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
 
 
 ---
@@ -100,10 +100,10 @@
 ## Reflection from
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikRef01 | 4  | Reflection form     | A an educator i want to see my reflection form | Reflection form is accessable from menu.| 5 | 10 | 0% | Rio |
-| aikRef02 | 4  | Reflection form     | A an educator i want to reflect on my observations in a seperate form. | Input can be saved on reflection form.| 8 | 15 | 0% | Rio |
-| aikRef03 | 4  | Reflection form   | A an educator i want to see my weekly recent reflection form upon loading reflection form. | Wekkly Reflection form is automatically loaded. If no input has been made this week, the form is empty. Changes are tracked.| 5 | 10 | 0% | Rio |
-| aikRef04 | 4  | Reflection form     | A an educator i want to add my recent observations to my reflection form | Observations can be automatically added to reflection form.| 5 | 10 | 0% | Rio |
-| aikRef05 | 4  | Reflection form     | A an educator i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
+| aikRef01 | 3  | Reflection form     | A an educator i want to see my reflection form | Reflection form is accessable from menu.| 5 | 10 | 0% | Rio |
+| aikRef02 | 3  | Reflection form     | A an educator i want to reflect on my observations in a seperate form. | Input can be saved on reflection form.| 8 | 15 | 0% | Rio |
+| aikRef03 | 3  | Reflection form   | A an educator i want to see my weekly recent reflection form upon loading reflection form. | Wekkly Reflection form is automatically loaded. If no input has been made this week, the form is empty. Changes are tracked.| 5 | 10 | 0% | Rio |
+| aikRef04 | 3  | Reflection form     | A an educator i want to add my recent observations to my reflection form | Observations can be automatically added to reflection form.| 5 | 10 | 0% | Rio |
+| aikRef05 | 3  | Reflection form     | A an educator i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
 
 ---
