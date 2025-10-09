@@ -21,16 +21,6 @@
 
 ---
 
-## Core System (MVP+)
-| ID        | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
-|-----------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikCore06     | 4    | Dashboard       | As an admin, I want an overview over database interactions in graphs                                   | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs.                                                | 13     | 5    | 10%    | Rio   |
-| **aikCore07** | 1    | Integration     | As a developer, I want a configured API base and CORS, so the frontend can reach the backend securely. | FE/BE base URL set via environment; CORS allows FE origin; HTTPS-only enforced; `/healthz` reachable; FE connectivity check passes.                    | 3      |      | 0%     |   Rio    |
-| **aikCore08** | 1    | Authentication  | As a user, I want login/logout integrated with the backend, so sessions are secure across FE and BE.   | JWT + refresh wired via HTTP interceptor; secure token storage; route guards for protected pages; logout clears session; 2 happy-path E2E tests green. | 5      |      | 0%     |   Rio    |
-| **aikCore09** | 2    | Data Management | As a user, I want end-to-end CRUD for children and observations, so I can manage records reliably.     | FE can create/read/update/delete via `/children` & `/observations`; optimistic UI with rollback on error; BE validation messages surfaced in UI.       | 8      |      | 0%     |    Rio   |
-
----
-
 ## Week planner
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
@@ -53,12 +43,12 @@
 
 ---
 
-## Cloud Api & Admin
+## Cloud Api 
 | ID         | Prio | Epic | User Story                                                                                                  | COS (Criteria of Satisfaction)                                                                                                                                                                                          | Effort | Time | Status | Owner |
 | ---------- | ---- | ---- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
-| aikCloud05 | 1    | API  | As a developer, I want to provide versioned REST APIs for core entities, so clients can integrate reliably. | OpenAPI 3 spec published; endpoints for auth, children, observations, exports under `/api/v1`; request/response validation; standardized error model; Postman/Insomnia collection available; basic rate-limit in place. | 8      |      | 0%     |   EDIT-Rio    |
-| aikCloud06 | 1    | API  | As a devops, I want to deploy the backend to the cloud, so it is accessible and maintainable.               | Docker image build; CI/CD pipeline to staging/prod; health endpoint `/healthz`; logs/metrics available; HTTPS enabled; zero-downtime rolling deploy & documented rollback.                                              | 8      |      | 0%     |   EDIT-Rio    |
-| aikCloud07 | 1    | API  | As a devops, I want to run the application database in the cloud, so data is durable and secure.            | Managed DB provisioned; SSL enforced; network access restricted (VPC/IP allowlist); EF Core migrations executed; automated daily backups + retention; credentials stored via secrets manager.                           | 8      |      | 0%     |   EDIT-Rio    |
+| aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored child information. | 13 | 8| 30% |  Rio |
+| aikCloud06 | 1    | API  | As a developer, I want to deploy the mvp backend to the cloud, so it is accessible and maintainable.               | Docker image build; CI/CD pipeline to staging/prod; health endpoint `/healthz`; logs/metrics available; HTTPS enabled; zero-downtime rolling deploy & documented rollback.                                              | 13      |   18   | 100%     |   Rio    |
+| aikCloud07 | 1    | API  | As a developer, I want to run the application database in the cloud, so data is durable and secure.            | Managed DB provisioned; SSL enforced; EF Core migrations executed;                          | 8      |   10   | 100%     |   Rio    |
 
 
 ---
@@ -67,26 +57,35 @@
 ## Security & Validation
 | ID        | Prio | Epic     | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |-----------|------|---------|-------------|---------------------------------|--------|-------|--------|-------|
-| aikSec01  | 2    | Security | As a user, I want all sensitive data to be encrypted. | AES-256 encryption must be applied. | 21 | | | EDIT-Rio (aufteilen) |
-| aikSec99  | 2    | Security | As a developer I want to send authentification data to backend and receive temporary session token. | A valid session token is received by frontend and temporarily stored. | 8 | | | EDIT-Rio (aufteilen) |
+| aikSec01  | 3    | Security | As a user, I want all sensitive data to be encrypted. | AES-256 encryption must be applied. | 21 | 10 | 10% | Rio |
+| aikSec02  | 1    | Security | As a developer I want to send authentification data to backend and receive temporary session token. | A valid session token is received by frontend and temporarily stored. | 8 | 10 | 100% | Rio/Huber |
+| aikSec03| 1    | Authentication  | As a user, I want login/logout integrated with the backend, so sessions are secure across FE and BE.   | JWT + refresh wired via HTTP interceptor; secure token storage; route guards for protected pages; logout clears session; | 13     |   14   | 90%     |   Rio / Huber  |
+| aikSec05 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 13 | 8 | 5% | Huber / Rio |
 
 
 ---
-
-## Cloud API + Admin
-| ID        | Prio | Epic   | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
-|-----------|------|-------|-------------|---------------------------------|--------|------|--------|-------|
-| aikCloud02 | 2   | API   | As a user, I want to log in securely to the child managment system. | Authentication must use JWT with a refresh mechanism. | 3 | | 0% | Rio |
-| aikCloud03 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 13 | 8 | 5% | Huber / Rio |
-| aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored data. | 8 | | |  Rio |
-
-
 
 ## Data Vizualisation & Insights
 | ID   | Prio | Epic                     | User Story                                                                                              | COS (Criteria of Satisfaction)                                      | Effort | Time | Status | Owner |
 | ---- | ---- | ------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
 | vi02 | 3    | Visualization & Insights | As a Data Scientist, I want to visually explore vectors and the dataset, so I can detect data patterns. | Clustering/dimensionality reduction (e.g., PCA/TSNE) is visualized. | 4      | 14   | 0%     |   Rio    |
+| vi03    | 4    | Dashboard       | As an admin, I want an overview over database interactions in graphs                                   | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs.                                                | 13     | 5    | 10%    | Rio   |
 
+---
+
+## AI Integration
+
+| ID   | Prio | Epic                     | User Story                                                                                              | COS (Criteria of Satisfaction)                                      | Effort | Time | Status | Owner |
+| ---- | ---- | ------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
+| **aikAi01** | 1    | AI Inference & Persistence | As a user, I want to send data to the AI endpoint `/infer` so I can receive an intelligent recommendation based on input.                       | FE can call `/api/ai/infer` with valid DTO; BE orchestrator processes and validates input; AI orchestration service returns structured result.   | 8      |  10    | 100%     | Rio   |
+| **aikAi02** | 1    | AI Inference & Persistence | As a developer, I want an `InferRequestDto` and `InferResponseDto` to transport input/output between FE and BE cleanly.                         | DTOs defined in `AiKita_BE.Common.Contracts.AI`; validation attributes present; serialization tested end-to-end.                                 | 3      |   3   | 100%     | Rio   |
+| **aikAi03** | 1    | AI Inference & Persistence | As a backend engineer, I want the `IAiOrchestrator` and `AiOrchestrator` to encapsulate the logic of AI inference calling internal services.    | `AiOrchestrator` implements infer pipeline (input validation → transformation → model call → mapping → return DTO); tested via integration test. | 3      |   2   | 100%     | Rio   |
+| **aikAi04** | 1    | AI Inference & Persistence | As a backend engineer, I want `InferService` to manage preprocessing and mapping from entities to AI-ready format.                              | `InferService` converts domain entities → feature vector; reusable across orchestrations; unit tested.                                           | 5      |   4   | 80%     | Rio   |
+| **aikAi05** | 1    | AI Inference & Persistence | As a backend engineer, I want the `/save` endpoint to persist the full AI inference result with all relevant metadata.                          | `/api/ai/save` accepts result payload; validation on DTO; stored via `IFullDataWriter`; returns persisted entity id.                             | 8      |   10   | 90%     | Rio   |
+| **aikAi06** | 1    | AI Inference & Persistence | As a developer, I want a `SaveRequestDto` and `SaveResponseDto` that mirror the inference output and support persistence metadata.              | DTOs map one-to-one to database schema entities; serialization/deserialization verified.                                                         | 3      |   1   | 100%     | Rio   |
+| **aikAi07** | 1    | AI Inference & Persistence | As a backend engineer, I want `IFullDataWriter` to handle persistence logic for saving AI and user data in a transactional manner.              | Implements `SaveResultAsync()`; atomic write; proper logging and rollback on failure.                                                            | 5      |   6   | 100%     | Rio   |
+| **aikAi08** | 1    | AI Inference & Persistence | As a backend engineer, I want structured error handling and validation messages surfaced to the frontend when `/infer` or `/save` fail.         | All exceptions caught centrally; mapped to readable validation errors; UI displays feedback without crash.                                       | 13      |   6   | 60%     | Rio / Huber   |
+| **aikAi09** | 2    | AI Mock Integration        | As a frontend developer, I want mock endpoints for `/infer` and `/save` so that I can test UI integration before real AI model connection.      | Mock controller methods return dummy DTOs with realistic structure; feature toggled; available in dev environment.                               | 5      |  6    | 100%     | Rio   |
 
 
 ## LLM 
