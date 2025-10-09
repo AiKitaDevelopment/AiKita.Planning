@@ -64,7 +64,7 @@
 | **aikAi07** | 1    | AI Inference & Persistence | As a backend engineer, I want `IFullDataWriter` to handle persistence logic for saving AI and user data in a transactional manner.              | Implements `SaveResultAsync()`; atomic write; proper logging and rollback on failure.                                                            | 5      |   6   | 100%     | Rio   |
 | **aikAi08** | 1    | AI Inference & Persistence | As a backend engineer, I want structured error handling and validation messages surfaced to the frontend when `/infer` or `/save` fail.         | All exceptions caught centrally; mapped to readable validation errors; UI displays feedback without crash.                                       | 13      |   6   | 60%     | Rio / Huber   |
 | **aikAi09** | 2    | AI Mock Integration        | As a frontend developer, I want mock endpoints for `/infer` and `/save` so that I can test UI integration before real AI model connection.      | Mock controller methods return dummy DTOs with realistic structure; feature toggled; available in dev environment.                               | 5      |  6    | 100%     | Rio   |
-| **aikAi10** | 2    | AI Integration        | As a user I want to see if Connection to AiModel is healthy.   | Connection is tested via health endpoint. Connection details are forwarded to FE and displayed via symbol on UI.      | 5      |  4    | 80%     | Rio / Huber  |
+| **aikAi10** | 2    | AI Integration        | As a user I want to see if Connection to AiModel is healthy.   | Connection is tested via health endpoint. Connection details are forwarded to FE and displayed via symbol on UI.      | 5      |  4    | 80%     | Rio / Huber / Mann |
 
 
 ## LLM 
