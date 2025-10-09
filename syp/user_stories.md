@@ -21,28 +21,6 @@
 
 ---
 
-## Week planner
-| ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
-|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikEx01 | 4  | Weekplanner       | A a teacher i want to access my week planner. | Navigation to week planner is implemented and works correctly. | 3 | 5 | 0% | Rio |
-| aikEx02 | 4  | Weekplanner       | A a teacher i want to be able to plan my week in a planer. | I can input my planned activities into my week planer. | 5 | 10 | 0% | Rio |
-| aikEx03 | 4  | Weekplanner       | A a teacher i want to import planned activties to my week planer. | The week plan can import activities from the planning logs off the last two weeks. | 5 | 10 | 0% | Rio |
-| aikEx04 | 4  | Weekplanner       | A a teacher i want to export and download my week planer into a pdf file. | The week planer can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
-
-
----
-
-## Reflection from
-| ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
-|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikRef01 | 4  | Reflection form     | A an educator i want to see my reflection form | Reflection form is accessable from menu.| 5 | 10 | 0% | Rio |
-| aikRef02 | 4  | Reflection form     | A an educator i want to reflect on my observations in a seperate form. | Input can be saved on reflection form.| 8 | 15 | 0% | Rio |
-| aikRef03 | 4  | Reflection form   | A an educator i want to see my weekly recent reflection form upon loading reflection form. | Wekkly Reflection form is automatically loaded. If no input has been made this week, the form is empty. Changes are tracked.| 5 | 10 | 0% | Rio |
-| aikRef04 | 4  | Reflection form     | A an educator i want to add my recent observations to my reflection form | Observations can be automatically added to reflection form.| 5 | 10 | 0% | Rio |
-| aikRef05 | 4  | Reflection form     | A an educator i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
-
----
-
 ## Cloud Api 
 | ID         | Prio | Epic | User Story                                                                                                  | COS (Criteria of Satisfaction)                                                                                                                                                                                          | Effort | Time | Status | Owner |
 | ---------- | ---- | ---- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
@@ -86,6 +64,7 @@
 | **aikAi07** | 1    | AI Inference & Persistence | As a backend engineer, I want `IFullDataWriter` to handle persistence logic for saving AI and user data in a transactional manner.              | Implements `SaveResultAsync()`; atomic write; proper logging and rollback on failure.                                                            | 5      |   6   | 100%     | Rio   |
 | **aikAi08** | 1    | AI Inference & Persistence | As a backend engineer, I want structured error handling and validation messages surfaced to the frontend when `/infer` or `/save` fail.         | All exceptions caught centrally; mapped to readable validation errors; UI displays feedback without crash.                                       | 13      |   6   | 60%     | Rio / Huber   |
 | **aikAi09** | 2    | AI Mock Integration        | As a frontend developer, I want mock endpoints for `/infer` and `/save` so that I can test UI integration before real AI model connection.      | Mock controller methods return dummy DTOs with realistic structure; feature toggled; available in dev environment.                               | 5      |  6    | 100%     | Rio   |
+| **aikAi10** | 2    | AI Integration        | As a user I want to see if Connection to AiModel is healthy.   | Connection is tested via health endpoint. Connection details are forwarded to FE and displayed via symbol on UI.      | 5      |  4    | 80%     | Rio / Huber  |
 
 
 ## LLM 
@@ -104,5 +83,27 @@
 | LLM10 | 2    | Deployment/Ops     | As a developer, I want containerization, controlled access, and documentation, so the service can be deployed and tested safely.            | Draft Dockerfile prepared; ports/env/volumes noted; remote access restricted to ACLs; smoke tests passed; runbook + README updated with pipeline steps and config parameters.  | 8      | 10   | 40%    | Mann  |
 | LLM11 | 1    | Core Pipeline      | As a user, I want AI-based suggestions (1–3 Ziele).                                                                                         | End-to-end prediction validated against sample set; acceptance check recorded.                                                                                                 | 2      | 7    | 100%   | Mann  |
 
+---
 
 
+## Week planner
+| ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| aikEx01 | 4  | Weekplanner       | A a teacher i want to access my week planner. | Navigation to week planner is implemented and works correctly. | 3 | 5 | 0% | Rio |
+| aikEx02 | 4  | Weekplanner       | A a teacher i want to be able to plan my week in a planer. | I can input my planned activities into my week planer. | 5 | 10 | 0% | Rio |
+| aikEx03 | 4  | Weekplanner       | A a teacher i want to import planned activties to my week planer. | The week plan can import activities from the planning logs off the last two weeks. | 5 | 10 | 0% | Rio |
+| aikEx04 | 4  | Weekplanner       | A a teacher i want to export and download my week planer into a pdf file. | The week planer can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
+
+
+---
+
+## Reflection from
+| ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| aikRef01 | 4  | Reflection form     | A an educator i want to see my reflection form | Reflection form is accessable from menu.| 5 | 10 | 0% | Rio |
+| aikRef02 | 4  | Reflection form     | A an educator i want to reflect on my observations in a seperate form. | Input can be saved on reflection form.| 8 | 15 | 0% | Rio |
+| aikRef03 | 4  | Reflection form   | A an educator i want to see my weekly recent reflection form upon loading reflection form. | Wekkly Reflection form is automatically loaded. If no input has been made this week, the form is empty. Changes are tracked.| 5 | 10 | 0% | Rio |
+| aikRef04 | 4  | Reflection form     | A an educator i want to add my recent observations to my reflection form | Observations can be automatically added to reflection form.| 5 | 10 | 0% | Rio |
+| aikRef05 | 4  | Reflection form     | A an educator i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
+
+---
