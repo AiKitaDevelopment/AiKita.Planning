@@ -9,7 +9,7 @@
 | aikUs04 | 3    | UI/UX            | As a user, I want be sure that closing a tab in the browser, logs me out. | SessionStorge was used achieve this. | 8 | 6,5 | 100% | Huber |
 | aikUs05 | 3    | UI/UX            | As a user, I want to see a list of all children in my group, so I can quickly access their information.| Child list is displayed correctly. | 8 | 4 | 75% | Huber |
 | aikUs06 | 3    | UI/UX            | As a user, I want to see a list of all observations and for one child only as well.| Previous observations are listed. | 8 | 4 | 75% | Huber |
-| aikUs07 | 3    | UI/UX            | As a user, I want change information given in the Navigation bar.| Settings page let's the user change the navigation bar settings. | 8 | 4 | 100% | Huber |
+| aikUs07 | 3    | UI/UX            | As a user, I want change information given in the Navigation bar.| Settings page let's the user change the navigation bar settings. | 4 | 2 | 100% | Huber |
 
 
 ## MVP
