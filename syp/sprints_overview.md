@@ -126,7 +126,32 @@ Total effort: 5
 Velocity: 3,6
 
 
+<br> <br>
+## :calendar: Sprint 10
+#### :hourglass: Sprint Duration: September 15 - Oktober 1
+
+:round_pushpin: Backend deployment in Cloud <br>
+:round_pushpin: Datenanbindung zwischen Frontend und Backend <br>
+
+Total hours worked: 66h
+Total effort: 52
+Velocity: 1.2
+
+
+<br> <br>
+## :calendar: Sprint 11
+#### :hourglass: Sprint Duration: September 15 - Oktober 1
+
+:round_pushpin: Backend deployment in Cloud <br>
+:round_pushpin: Datenanbindung zwischen Frontend und Backend <br>
+:round_pushpin: Planning UI liefert echte Daten von der Datenbank <br>
+
+Total hours worked: 32h
+Total effort: 21
+Velocity: 1.5
+
+
 
 ---
-Total hours: 61  
-avg velocity: 5
+Total hours: 320
+avg velocity: 3.35
