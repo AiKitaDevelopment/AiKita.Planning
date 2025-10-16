@@ -47,9 +47,8 @@
 ## Data Vizualisation & Insights
 | ID   | Prio | Epic                     | User Story                                                                                              | COS (Criteria of Satisfaction)                                      | Effort | Time | Status | Owner |
 | ---- | ---- | ------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
-| aikVis01 | 3 | Dashboard & Insights | As a user, I want to see system and data activity in clear graphs so I can identify who accessed what sensitive information. | Visitor counts, new entries, and popular actions are shown in readable charts; PCA/TSNE visualizations included. | 17 | 19 | 50% | Rio |
-| vi03    | 3    | Dashboard       | As a user I want an overview over database interactions in graphs  | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs.                                                | 13     | 5    | 10%    | Rio   |
-| vi03    | 3    | Dashboard       | As a user I want an overview of my recent activities and see statistics on my recent planning Data to detect early imbalances in my planning activity focus.  | Recent activity can be seen in my logs. Planned activity areas must be visualized by easily readable graphs.          | 13     | 5    | 30%    | Rio   |
+| aikVis01 | 3 | Dashboard & Insights | As a user, I want to see system and data activity in clear graphs so I can identify who accessed what sensitive information. | Visitor counts, new entries, and popular actions are shown in readable charts; PCA/TSNE visualizations included. | 17 | 19 | 50% | Rio/Huber |
+| vi03    | 3    | Dashboard       | As a user I want an overview of my recent activities and see statistics on my recent planning Data to detect early imbalances in my planning activity focus.  | Recent activity can be seen in my logs. Planned activity areas must be visualized by easily readable graphs.          | 13     | 5    | 30%    | Rio/Huber   |
 
 
 ---
