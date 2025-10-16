@@ -4,8 +4,8 @@
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
 | aikUs01 | 1    | UI/UX            | As a user, I want to navigate the app via a menu, so I can quickly switch between sections. | Menu displays links for planning, childlist and logs correctly. Navigation to these sites works. | 13 | 20 | 75% | Huber |
-| aikUs02 | 3    | UI/UX            | As a user, I want to log in, so I can access the content. | Login works, user is redirected to the dashboard. | 8 | 6,5 | 100% | Huber |
-| aikUs03 | 3    | UI/UX            | As a user, I want to log out, so my data remains secure. | Logout works, user is redirected to the login page. | 8 | 6,5 | 100% | Huber |
+| aikUs02 | 3    | UI/UX            | As a user, I want to log in, so I can access the content. | Login works, user is redirected to the dashboard. | 13 | 14 | 100% | Huber/Rio |
+| aikUs03 | 3    | UI/UX            | As a user, I want to log out, so my data remains secure. | Logout works, user is redirected to the login page. | 13 | 10 | 100% | Huber/Rio |
 | aikUs04 | 3    | UI/UX            | As a user, I want be sure that closing a tab in the browser, logs me out. | SessionStorge was used achieve this. | 8 | 6,5 | 100% | Huber |
 | aikUs05 | 3    | UI/UX            | As a user, I want to see a list of all children in my group, so I can quickly access their information.| Child list is displayed correctly. | 8 | 4 | 75% | Huber |
 | aikUs06 | 3    | UI/UX            | As a user, I want to see a list of all observations and for one child only as well.| Previous observations are listed. | 8 | 4 | 75% | Huber |
@@ -25,9 +25,10 @@
 ## Cloud Api 
 | ID         | Prio | Epic | User Story                                                                                                  | COS (Criteria of Satisfaction)                                                                                                                                                                                          | Effort | Time | Status | Owner |
 | ---------- | ---- | ---- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
-| aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored child information. | 13 | 8| 30% |  Rio |
-| aikCloud06 | 1    | API  | As a developer, I want to deploy the mvp backend to the cloud, so it is accessible and maintainable.               | Docker image build; CI/CD pipeline to staging/prod; health endpoint `/healthz`; logs/metrics available; HTTPS enabled; zero-downtime rolling deploy & documented rollback.                                              | 13      |   18   | 100%     |   Rio    |
-| aikCloud07 | 1    | API  | As a developer, I want to run the application database in the cloud, so data is durable and secure.            | Managed DB provisioned; SSL enforced; EF Core migrations executed;                          | 8      |   10   | 100%     |   Rio    |
+| aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored child information. SSL enforced; Encryption for loggin data and sensitive data is ensured. | 13 | 20| 30% |  Rio |
+| aikCloud06 | 1    | API  | As a user I want my input data to be access my data from anywhere.            | Database can be accessed via cloud. Data is managed, synchronized regularly and veted for ideal data persistance.                                           | 21     |   40   | 100%     |   Rio    |
+| aikCloud07 | 2 | Data Sync | As a user, I want my data to sync automatically with the cloud so my changes are safely stored. | Data is stored in a PostgreSQL database; sync events are logged for reliability. | 13 | 20 | 100% | Rio |
+| aikCloud08 | 2 | Data Management | As a user, I want to delete saved records so I can remove outdated or incorrect data. | Each entry has a delete button with a confirmation prompt. | 3 | 5 | 100% | Rio |
 
 
 ---
@@ -36,10 +37,9 @@
 ## Security & Validation
 | ID        | Prio | Epic     | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |-----------|------|---------|-------------|---------------------------------|--------|-------|--------|-------|
-| aikSec01  | 3    | Security | As a user, I want all sensitive data to be encrypted. | AES-256 encryption must be applied. | 21 | 10 | 10% | Rio |
-| aikSec02  | 1    | Security | As a developer I want to send authentification data to backend and receive temporary session token. | A valid session token is received by frontend and temporarily stored. | 8 | 10 | 100% | Rio/Huber |
-| aikSec03| 1    | Authentication  | As a user, I want login/logout integrated with the backend, so sessions are secure across FE and BE.   | JWT + refresh wired via HTTP interceptor; secure token storage; route guards for protected pages; logout clears session; | 13     |   14   | 90%     |   Rio / Huber  |
-| aikSec05 | 3   | API   | As an admin, I want role-based user permissions. | The admin UI must allow assigning and modifying roles. | 13 | 8 | 5% | Huber / Rio |
+| aikSec01 | 2 | File Security | As a user, I want uploaded files to be verified so only valid and safe files are processed. | JSON uploads are validated against a schema before processing. | 8 | 2 | 10% | Rio/Huber |
+| aikSec02 | 2 | Security & Logging | As a user, I want the system to record all data access so activity can be audited when necessary. | All read/write actions are logged for compliance and traceability. | 8 | 10 | 80% | Rio/Huber |
+| aikSec05 | 3   | API   | As a user I want my input data to only be visible by me or my supervisors.| The admin UI must allow assigning and modifying roles. Data access is modified by role based permissions. | 21 | 8 | 20% | Huber / Rio |
 
 
 ---
@@ -47,8 +47,10 @@
 ## Data Vizualisation & Insights
 | ID   | Prio | Epic                     | User Story                                                                                              | COS (Criteria of Satisfaction)                                      | Effort | Time | Status | Owner |
 | ---- | ---- | ------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
-| vi02 | 3    | Visualization & Insights | As a Data Scientist, I want to visually explore vectors and the dataset, so I can detect data patterns. | Clustering/dimensionality reduction (e.g., PCA/TSNE) is visualized. | 4      | 14   | 0%     |   Rio    |
-| vi03    | 3    | Dashboard       | As an admin, I want an overview over database interactions in graphs                                   | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs.                                                | 13     | 5    | 10%    | Rio   |
+| aikVis01 | 3 | Dashboard & Insights | As a user, I want to see system and data activity in clear graphs so I can identify who accessed what sensitive information. | Visitor counts, new entries, and popular actions are shown in readable charts; PCA/TSNE visualizations included. | 17 | 19 | 50% | Rio |
+| vi03    | 3    | Dashboard       | As a user I want an overview over database interactions in graphs  | Amount of visitors, new entries, most popular entries etc must be visualized by easily readable graphs.                                                | 13     | 5    | 10%    | Rio   |
+| vi03    | 3    | Dashboard       | As a user I want an overview of my recent activities and see statistics on my recent planning Data to detect early imbalances in my planning activity focus.  | Recent activity can be seen in my logs. Planned activity areas must be visualized by easily readable graphs.          | 13     | 5    | 30%    | Rio   |
+
 
 ---
 
@@ -56,16 +58,12 @@
 
 | ID   | Prio | Epic                     | User Story                                                                                              | COS (Criteria of Satisfaction)                                      | Effort | Time | Status | Owner |
 | ---- | ---- | ------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
-| **aikAi01** | 1    | AI Inference & Persistence | As a user, I want to send data to the AI endpoint `/infer` so I can receive an intelligent recommendation based on input.                       | FE can call `/api/ai/infer` with valid DTO; BE orchestrator processes and validates input; AI orchestration service returns structured result.   | 8      |  10    | 100%     | Rio   |
-| **aikAi02** | 1    | AI Inference & Persistence | As a developer, I want an `InferRequestDto` and `InferResponseDto` to transport input/output between FE and BE cleanly.                         | DTOs defined in `AiKita_BE.Common.Contracts.AI`; validation attributes present; serialization tested end-to-end.                                 | 3      |   3   | 100%     | Rio   |
-| **aikAi03** | 1    | AI Inference & Persistence | As a backend engineer, I want the `IAiOrchestrator` and `AiOrchestrator` to encapsulate the logic of AI inference calling internal services.    | `AiOrchestrator` implements infer pipeline (input validation → transformation → model call → mapping → return DTO); tested via integration test. | 3      |   2   | 100%     | Rio   |
-| **aikAi04** | 1    | AI Inference & Persistence | As a backend engineer, I want `InferService` to manage preprocessing and mapping from entities to AI-ready format.                              | `InferService` converts domain entities → feature vector; reusable across orchestrations; unit tested.                                           | 5      |   4   | 80%     | Rio   |
-| **aikAi05** | 1    | AI Inference & Persistence | As a backend engineer, I want the `/save` endpoint to persist the full AI inference result with all relevant metadata.                          | `/api/ai/save` accepts result payload; validation on DTO; stored via `IFullDataWriter`; returns persisted entity id.                             | 8      |   10   | 90%     | Rio   |
-| **aikAi06** | 1    | AI Inference & Persistence | As a developer, I want a `SaveRequestDto` and `SaveResponseDto` that mirror the inference output and support persistence metadata.              | DTOs map one-to-one to database schema entities; serialization/deserialization verified.                                                         | 3      |   1   | 100%     | Rio   |
-| **aikAi07** | 1    | AI Inference & Persistence | As a backend engineer, I want `IFullDataWriter` to handle persistence logic for saving AI and user data in a transactional manner.              | Implements `SaveResultAsync()`; atomic write; proper logging and rollback on failure.                                                            | 5      |   6   | 100%     | Rio   |
-| **aikAi08** | 1    | AI Inference & Persistence | As a backend engineer, I want structured error handling and validation messages surfaced to the frontend when `/infer` or `/save` fail.         | All exceptions caught centrally; mapped to readable validation errors; UI displays feedback without crash.                                       | 13      |   6   | 60%     | Rio / Huber   |
-| **aikAi09** | 2    | AI Mock Integration        | As a frontend developer, I want mock endpoints for `/infer` and `/save` so that I can test UI integration before real AI model connection.      | Mock controller methods return dummy DTOs with realistic structure; feature toggled; available in dev environment.                               | 5      |  6    | 100%     | Rio   |
-| **aikAi10** | 2    | AI Integration        | As a user I want to see if Connection to AiModel is healthy.   | Connection is tested via health endpoint. Connection details are forwarded to FE and displayed via symbol on UI.      | 5      |  4    | 80%     | Rio / Huber / Mann |
+| **aikAi01** | 1    | AI Inference & Persistence | As a user, I want to send my observation to the AI, so I can receive an intelligent recommendation based on input.                       | FE can call `/api/ai/infer` with valid DTO; BE orchestrator processes and validates input; AI orchestration service returns structured result.   | 21      |  22    | 80%     | Rio/Huber/Mann   |
+| **aikAi04** | 1    | AI Inference & Persistence | As a user I want to receive structured Ai recommendations in the responding fields so i can work with the result. | 'Infer Response' contains all the relevant fields for a full planning set, such as area, subsection, goal, recommendations for activities.   | 13      |   24   | 80%     | Rio/Huber/Mann   |
+| **aikAi05** | 1    | AI Inference & Persistence | As a user I want to be able to modify AI recommendations to my needs. |  `/api/ai/save` logs result to database. Ai Model use is logged; validation on DTO;     | 8      |   10   | 90%     | Rio/Huber   |
+| **aikAi06** | 1    | AI Inference & Persistence | As a user I want to be able to see and / or modifiy my past planning data.   |  stored via `IFullDataWriter`; returns persisted entity id. Log data is allocated to role. Logdata can be loaded and modified via logs in the ui.   | 21     |   14   | 50%     | Rio/Huber   |
+| **aikAi07** | 1    | AI Inference & Persistence | As a user I want to see if AI requests are possible at the moment. I want to know if my UI is connected to the AiModel.    | AI connection healt endpoint is implemented on backend and Ai Model.  Connection is tested via health endpoint. Connection details are forwarded to FE and displayed via symbol on UI.    | 13      |   6   | 60%     | Rio / Huber / Mann   |
+| **aikAi08** | 1    | AI Inference & Persistence | As a user I want info texts if something went wrong with my AI requests.    | All exceptions caught centrally; mapped to readable validation errors; UI displays feedback without crash.     | 13      |   6   | 30%     | Rio / Huber / Mann   |
 
 
 ## LLM 
@@ -83,6 +81,7 @@
 | LLM09 | 1    | Core Pipeline      | As a developer, I want a connected backend with a finalized JSON schema, so services interoperate safely.                                   | `/v1/predict-ziel` returns agreed DTO; error semantics defined; schema validated in Swagger; field names + versioning documented.                                              | 5      | 11   | 100%   | Mann  |
 | LLM10 | 2    | Deployment/Ops     | As a developer, I want containerization, controlled access, and documentation, so the service can be deployed and tested safely.            | Draft Dockerfile prepared; ports/env/volumes noted; remote access restricted to ACLs; smoke tests passed; runbook + README updated with pipeline steps and config parameters.  | 8      | 10   | 40%    | Mann  |
 | LLM11 | 1    | Core Pipeline      | As a user, I want AI-based suggestions (1–3 Ziele).                                                                                         | End-to-end prediction validated against sample set; acceptance check recorded.                                                                                                 | 2      | 7    | 100%   | Mann  |
+| LLM12 | 1    | Core Pipeline      | As a user, I want to know how accurate the AI rates it's response so I can double check low accuracy results.   |  Precision is displayed with ai response and is logged alongside all saved LogData.      | 13      | 13    | 7%   | Huber/Mann/Rio |
 
 ---
 
@@ -90,10 +89,10 @@
 ## Week planner
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikEx01 | 3  | Weekplanner       | A a teacher i want to access my week planner. | Navigation to week planner is implemented and works correctly. | 3 | 5 | 0% | Rio |
-| aikEx02 | 3  | Weekplanner       | A a teacher i want to be able to plan my week in a planer. | I can input my planned activities into my week planer. | 5 | 10 | 0% | Rio |
-| aikEx03 | 3  | Weekplanner       | A a teacher i want to import planned activties to my week planer. | The week plan can import activities from the planning logs off the last two weeks. | 5 | 10 | 0% | Rio |
-| aikEx04 | 3  | Weekplanner       | A a teacher i want to export and download my week planer into a pdf file. | The week planer can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
+| aikEx01 | 3  | Weekplanner       | A a user i want to access my week planner. | Navigation to week planner is implemented and works correctly. | 3 | 5 | 0% | Rio |
+| aikEx02 | 3  | Weekplanner       | A a user i want to be able to plan my week in a planer. | I can input my planned activities into my week planer. | 5 | 10 | 0% | Rio |
+| aikEx03 | 3  | Weekplanner       | A a user i want to import planned activties to my week planer. | The week plan can import activities from the planning logs off the last two weeks. | 5 | 10 | 0% | Rio |
+| aikEx04 | 3  | Weekplanner       | A a user i want to export and download my week planer into a pdf file. | The week planer can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
 
 
 ---
@@ -101,10 +100,10 @@
 ## Reflection from
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikRef01 | 3  | Reflection form     | A an educator i want to see my reflection form | Reflection form is accessable from menu.| 5 | 10 | 0% | Rio |
-| aikRef02 | 3  | Reflection form     | A an educator i want to reflect on my observations in a seperate form. | Input can be saved on reflection form.| 8 | 15 | 0% | Rio |
-| aikRef03 | 3  | Reflection form   | A an educator i want to see my weekly recent reflection form upon loading reflection form. | Wekkly Reflection form is automatically loaded. If no input has been made this week, the form is empty. Changes are tracked.| 5 | 10 | 0% | Rio |
-| aikRef04 | 3  | Reflection form     | A an educator i want to add my recent observations to my reflection form | Observations can be automatically added to reflection form.| 5 | 10 | 0% | Rio |
-| aikRef05 | 3  | Reflection form     | A an educator i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
+| aikRef01 | 3  | Reflection form     | A a user i want to see my reflection form | Reflection form is accessable from menu.| 5 | 10 | 0% | Rio |
+| aikRef02 | 3  | Reflection form     | A a user i want to reflect on my observations in a seperate form. | Input can be saved on reflection form.| 8 | 15 | 0% | Rio |
+| aikRef03 | 3  | Reflection form   | A a user i want to see my weekly recent reflection form upon loading reflection form. | Wekkly Reflection form is automatically loaded. If no input has been made this week, the form is empty. Changes are tracked.| 5 | 10 | 0% | Rio |
+| aikRef04 | 3  | Reflection form     | A a user i want to add my recent observations to my reflection form | Observations can be automatically added to reflection form.| 5 | 10 | 0% | Rio |
+| aikRef05 | 3  | Reflection form     | A a user i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
 
 ---
