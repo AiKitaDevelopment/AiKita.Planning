@@ -51,11 +51,49 @@
 | **ea03**      | 3         | 1    | 8h   |   | [Sprint8](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-8) |
 | **ea04**      | 2         | 1    | 5h    |   | [Sprint8](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-8) |
 | **ea05**      | 3         | 1    | 10h   |     | [Sprint8](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-8) |
+| **aikCloud06** | 21        | 1    | 40          | Database can be accessed via cloud; data synchronized regularly. | [Sprint 10](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-10) |
+| **aikCloud07** | 13        | 2    | 20          | Automatic cloud sync implemented; reliability logs added.        | [Sprint 10](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-10) |
+| **aikCloud08** | 8         | 2    | 5           | Delete feature with confirmation prompt implemented.             | [Sprint 10](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-10) |
+| **aikUs02**    | 13        | 3    | 14          | Login implemented and functional (necessary for API access).     | [Sprint 10](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-10) |
+| **aikUs03**    | 13        | 3    | 10          | Logout implemented; ensures secure sessions.                     | [Sprint 10](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-10) |
+| **aikUs04**    | 8         | 3    | 6.5         | Automatic logout on tab close via SessionStorage.                | [Sprint 10](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-10) |
+| **aikMvp01**   | 3         | 1    | 1           | Dashboard loads within 3 seconds after login.                    | [Sprint 10](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-10) |
+| **aikUs01**    | 13        | 1    | 20          | Navigation menu connects UI sections to live backend data. | [Sprint 11](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-11) |
+| **aikUs05**    | 8         | 3    | 4           | Child list now retrieves real data from database.          | [Sprint 11](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-11) |
+| **aikUs06**    | 8         | 3    | 4           | Observation lists connected to backend endpoints.          |[ Sprint 11](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-11) |
+| **aikUs07**    | 4         | 3    | 2           | Settings in navigation bar now persist via backend API.    | [Sprint 11](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-11) |
+| **aikCloud04** | 13        | 3    | 20          | Cloud API security layer (HTTPS + encryption) implemented. | [Sprint 11](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-11) |
+| **aikMvp02**   | 2         | 1    | 6           | Forms validation integrated with backend API (partial).    | [Sprint 11](https://github.com/riosarah/AiKita.Planning/blob/main/syp/sprints_overview.md#calendar-sprint-11) |
+
 
 
 ---
 
 ## Completed User stories
+
+### User Focus
+| ID          | Epic  | User Story                                                      | Owner       |
+| ----------- | ----- | --------------------------------------------------------------- | ----------- |
+| **aikUs02** | UI/UX | Login funktioniert, Nutzer wird zum Dashboard weitergeleitet.   | Huber / Rio |
+| **aikUs03** | UI/UX | Logout funktioniert, Nutzer wird zur Loginseite weitergeleitet. | Huber / Rio |
+| **aikUs04** | UI/UX | Tab schließen führt zum Logout (SessionStorage).                | Huber       |
+| **aikUs07** | UI/UX | Navigationseinstellungen können geändert werden.                | Huber       |
+
+
+### MVP
+| ID           | Epic  | User Story                                          | Owner |
+| ------------ | ----- | --------------------------------------------------- | ----- |
+| **aikMvp01** | UI/UX | Dashboard lädt nach Login innerhalb von 3 Sekunden. | Huber |
+
+
+
+### Cloud
+| ID             | Epic            | User Story                                                  | Owner       |
+| -------------- | --------------- | ----------------------------------------------------------- | ----------- |
+| **aikCloud06** | API             | Datenbank ist über Cloud zugänglich; Synchronisation aktiv. | Rio         |
+| **aikCloud07** | Data Sync       | Automatische Synchronisation mit Cloud; Logs vorhanden.     | Rio         |
+| **aikCloud08** | Data Management | Einträge können gelöscht werden (mit Bestätigung).          | Rio / Huber |
+
 
 
 ## Planning and Strategies
