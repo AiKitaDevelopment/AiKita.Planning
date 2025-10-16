@@ -153,5 +153,9 @@ Velocity: 1.5
 
 
 ---
-Total hours: 320
-avg velocity: 3.35
+Total hours: 320    
+
+Total effort: 143    
+
+avg velocity: 3.35    
+
