@@ -3,7 +3,7 @@
 ## User Focus
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikUs01 | 1    | UI/UX            | As a user, I want to navigate the app via a menu, so I can quickly switch between sections. | Menu displays links for planning, childlist and logs correctly. Navigation to these sites works. | 10 | 16 | 100% | Huber |
+| aikUs01 | 1    | UI/UX            | As a user, I want to easily enter my observation for a certain child and get back recommended activities. | User prompt is processed by AI to get back recommendations. | 10 | 20 | 100% | Huber/Rio/Mann |
 | aikUs02 | 3    | UI/UX            | As a user, I want to log in, so I can access the content. | Login works, user is redirected to the dashboard. | 8 | 12 | 100% | Huber/Rio |
 | aikUs03 | 3    | UI/UX            | As a user, I want to log out, so my data remains secure. | Logout works, user is redirected to the login page. | 4 | 6 | 100% | Huber/Rio |
 | aikUs04 | 3    | UI/UX            | As a user, I want to see a list of all children in my group, so I can quickly access their information.| Child list is displayed correctly. | 8 | 10 | 100% | Huber |
