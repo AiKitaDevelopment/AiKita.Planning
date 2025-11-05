@@ -15,8 +15,8 @@
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
 | aikMvp01 | 1  | UI/UX            | As a user, I want to launch the app and see a clear welcome screen, so I know it is working. | Dashboard must load, after login, within 3s. | 3 | 1 | 100% | Huber |
-| aikMvp02 | 1  | Forms            | As a user, I want structured forms with validation, so I can enter correct data without errors. | Core features/forms must include validation for all fields and display clear error messages. | 2 | 6 | 25%| Huber |
-| aikMvp07 | 2  | Export           | As a user, I want to export selected records, so I can use them externally. | A Download button must be visible for all records. | 2 | 0 | 0 | Huber |
+| aikMvp02 | 1  | Forms            | As a user, I want to avoid entering wrong data. | Core features/forms must include validation for all fields and display clear error messages. | 2 | 6 | 75%| Huber |
+| aikMvp07 | 2  | Export           | As a user, I want to export selected records, so I can use them externally. | A Download button must be visible for all records. | 2 | 4 | 0 | Huber |
 
 
 ---
