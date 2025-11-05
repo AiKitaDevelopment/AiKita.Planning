@@ -6,10 +6,9 @@
 | aikUs01 | 1    | UI/UX            | As a user, I want to navigate the app via a menu, so I can quickly switch between sections. | Menu displays links for planning, childlist and logs correctly. Navigation to these sites works. | 10 | 20 | 100% | Huber |
 | aikUs02 | 3    | UI/UX            | As a user, I want to log in, so I can access the content. | Login works, user is redirected to the dashboard. | 8 | 14 | 100% | Huber/Rio |
 | aikUs03 | 3    | UI/UX            | As a user, I want to log out, so my data remains secure. | Logout works, user is redirected to the login page. | 6 | 10 | 100% | Huber/Rio |
-| aikUs04 | 3    | UI/UX            | As a user, I want be sure that closing a tab in the browser, logs me out. | SessionStorge was used achieve this. | 8 | 6,5 | 100% | Huber |
-| aikUs05 | 3    | UI/UX            | As a user, I want to see a list of all children in my group, so I can quickly access their information.| Child list is displayed correctly. | 8 | 4 | 75% | Huber |
-| aikUs06 | 3    | UI/UX            | As a user, I want to see a list of all observations and for one child only as well.| Previous observations are listed. | 8 | 4 | 75% | Huber |
-| aikUs07 | 3    | UI/UX            | As a user, I want change information given in the Navigation bar.| Settings page let's the user change the navigation bar settings. | 4 | 2 | 100% | Huber |
+| aikUs04 | 3    | UI/UX            | As a user, I want to see a list of all children in my group, so I can quickly access their information.| Child list is displayed correctly. | 8 | 4 | 75% | Huber |
+| aikUs05 | 3    | UI/UX            | As a user, I want to see a list of all observations and for one child only as well.| Previous observations are listed. | 8 | 4 | 75% | Huber |
+| aikUs06 | 3    | UI/UX            | As a user, I want change information given in the Navigation bar.| Settings page let's the user change the navigation bar settings. | 4 | 2 | 100% | Huber |
 
 
 ## MVP
