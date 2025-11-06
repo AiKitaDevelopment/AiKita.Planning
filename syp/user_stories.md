@@ -21,14 +21,14 @@
 
 ---
 
-## Cloud Api 
+## Cloud Deployment 
 | ID         | Prio | Epic | User Story                                                                                                  | COS (Criteria of Satisfaction)                                                                                                                                                                                          | Effort | Time | Status | Owner |
 | ---------- | ---- | ---- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---- | ------ | ----- |
 | aikCloud04 | 3   | API   | As a user, I want my cloud data to be secure. | The API must enforce HTTPS and encrypt stored child information. SSL enforced; Encryption for loggin data and sensitive data is ensured. | 13 | 20| 30% |  Rio |
 | aikCloud06 | 1    | API  | As a user I want my input data to be accessible from anywhere.            | Database can be accessed via cloud. Data is managed, synchronized regularly and veted for ideal data persistance.                                           | 21     |   40   | 100%     |   Rio    |
 | aikCloud07 | 2 | Data Sync | As a user, I want my data to sync automatically with the cloud so my changes are safely stored. | Data is stored in a PostgreSQL database; sync events are logged for reliability. | 13 | 20 | 100% | Rio |
 | aikCloud08 | 2 | Data Management | As a user, I want to delete saved records so I can remove outdated or incorrect data. | Each entry has a delete button with a confirmation prompt. | 8 | 5 | 100% | Rio/Huber |
-
+| aikCloud09 | 2    | Core Pipeline      | As a user, I want to access the AiKita app from any computer via a web browser, so I am not tied to a single machine.   |  The full application stack is deployed to Google Cloud Run. The frontend is accessible via a public HTTPS URL and all internal services communicate. The live system passes the 20-sample acceptance test.     | 13      | 0    | 0%   | Huber/Mann/Rio |
 
 ---
 
@@ -81,7 +81,6 @@
 | LLM11 | 1    | Core Pipeline      | As a user, I want AI-based suggestions (1–3 Ziele).                                                                                         | End-to-end prediction validated against sample set; acceptance check recorded.                                                                                                 | 2      | 7    | 100%   | Mann  |
 | LLM12 | 1    | Core Pipeline      | As a user, I want to know how accurate the AI rates it's response so I can double check low accuracy results.   |  Precision is displayed with ai response and is logged alongside all saved LogData.      | 13      | 13    | 7%   | Huber/Mann/Rio |
 | LLM13 | 2    | Trust/Reliability      | As a user, I want the AI's suggested goals to be more creative and specific, so the suggestions provide new ideas, not just simple keyword matches.   |  The new prompt logic is implemented. When tested against the 20-sample set, the AI suggestions are judged to be more context-aware and less repetitive than the old prompts.     | 21      | 0    | 0%   | Mann/Rio |
-| LLM14 | 2    | Core Pipeline      | As a user, I want to access the AiKita app from any computer via a web browser, so I am not tied to a single machine.   |  The full application stack is deployed to Google Cloud Run. The frontend is accessible via a public HTTPS URL and all internal services communicate. The live system passes the 20-sample acceptance test.     | 13      | 0    | 0%   | Huber/Mann/Rio |
 
 ---
 
