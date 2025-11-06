@@ -151,6 +151,17 @@ Total effort: 21
 Velocity: 1.5
 
 
+<br> <br>
+## :calendar: Sprint 12
+#### :hourglass: Sprint Duration: September 15 - November 6
+
+:round_pushpin: Datenanbindung zwischen Backend und Ai Model <br>
+:round_pushpin: Frontend UI liefert Ai Model Daten <br>
+:round_pushpin: Frontend UI liefert Ai Model Daten <br>
+
+Total hours worked: 27h
+Total effort: 42
+Velocity: 0,7
 
 ---
 Total hours: 320    
