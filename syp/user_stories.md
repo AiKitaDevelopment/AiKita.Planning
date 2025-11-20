@@ -88,9 +88,9 @@
 ## Week planner
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikEx01 | 3  | Weekplanner       | A a user i want to access my week planner. | Navigation to week planner is implemented and works correctly. | 3 | 5 | 0% | Rio |
-| aikEx02 | 3  | Weekplanner       | A a user i want to be able to plan my week in a planer. | I can input my planned activities into my week planer. | 5 | 10 | 0% | Rio |
-| aikEx03 | 3  | Weekplanner       | A a user i want to import planned activties to my week planer. | The week plan can import activities from the planning logs off the last two weeks. | 5 | 10 | 0% | Rio |
+| aikEx01 | 3  | Weekplanner       | A a user i want to access my week planner. | Navigation to week planner is implemented and works correctly. | 3 | 5 | 100% | Rio |
+| aikEx02 | 3  | Weekplanner       | A a user i want to be able to plan my week in a planer. | I can input my planned activities into my week planer. | 5 | 15 | 100% | Rio |
+| aikEx03 | 3  | Weekplanner       | A a user i want to import planned activties to my week planer. | The week plan can import activities from the planning logs off the last two weeks. | 5 | 6 | 100% | Rio |
 | aikEx04 | 3  | Weekplanner       | A a user i want to export and download my week planer into a pdf file. | The week planer can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
 
 
