@@ -28,7 +28,7 @@
 | aikCloud06 | 1    | API  | As a user I want my input data to be accessible from anywhere.            | Database can be accessed via cloud. Data is managed, synchronized regularly and veted for ideal data persistance.                                           | 21     |   40   | 100%     |   Rio    |
 | aikCloud07 | 2 | Data Sync | As a user, I want my data to sync automatically with the cloud so my changes are safely stored. | Data is stored in a PostgreSQL database; sync events are logged for reliability. | 13 | 20 | 100% | Rio |
 | aikCloud08 | 2 | Data Management | As a user, I want to delete saved records so I can remove outdated or incorrect data. | Each entry has a delete button with a confirmation prompt. | 8 | 5 | 100% | Rio/Huber |
-| aikCloud09 | 2    | Core Pipeline      | As a user, I want to access the AiKita app from any computer via a web browser, so I am not tied to a single machine.   |  The full application stack is deployed to Google Cloud Run. The frontend is accessible via a public HTTPS URL and all internal services communicate. The live system passes the 20-sample acceptance test.     | 13      | 0    | 0%   | Huber/Mann/Rio |
+| aikCloud09 | 2    | Core Pipeline      | As a user, I want to access the AiKita app from any computer via a web browser, so I am not tied to a single machine.   |  The full application stack is deployed to Google Cloud Run. The frontend is accessible via a public HTTPS URL and all internal services communicate. The live system passes the 20-sample acceptance test.     | 13      | 25    | 100%   | Huber/Mann/Rio |
 
 ---
 
