@@ -15,8 +15,8 @@
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
 | aikMvp01 | 1  | UI/UX            | As a user, I want to be taken to the dashboard after logging in, so I can quickly see what I can do in the application. | After a successful login, the user is automatically redirected to the dashboard. | 3 | 2 | 100% | Huber |
-| aikMvp02 | 1  | Forms            | As a user, I want the application to prevent me from entering incorrect data, so I can be sure my input is valid. | All forms include validation for every field, and clear, user-friendly error messages are shown when data is invalid. | 2 | 6 | 75%| Huber |
-| aikMvp07 | 2  | Export           | As a user, I want to export child records, so I can use them externally. | A Download button must be visible for child records. | 2 | 4 | 0 | Huber |
+| aikMvp02 | 1  | Forms            | As a user, I want the application to prevent me from entering incorrect data, so I can be sure my input is valid. | All forms include validation for every field, and clear, user-friendly error messages are shown when data is invalid. | 2 | 6 | 100%| Huber |
+| aikMvp07 | 2  | Export           | As a user, I want to export child records, so I can use them externally. | A Download button must be visible for child records. | 2 | 4 | 100% | Huber |
 
 
 ---
