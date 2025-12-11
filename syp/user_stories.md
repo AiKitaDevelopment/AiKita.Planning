@@ -38,7 +38,7 @@
 |-----------|------|---------|-------------|---------------------------------|--------|-------|--------|-------|
 | aikSec01 | 2 | File Security | As a user, I want uploaded files to be verified so only valid and safe files are processed. | JSON uploads are validated against a schema before processing. | 8 | 2 | 10% | Rio/Huber |
 | aikSec02 | 2 | Security & Logging | As a user, I want the system to record all data access so activity can be audited when necessary. | All read/write actions are logged for compliance and traceability. | 8 | 10 | 100% | Rio/Huber |
-| aikSec05 | 3   | API   | As a user I want my input data to only be visible by me or my supervisors.| The admin UI must allow assigning and modifying roles. Data access is modified by role based permissions. | 21 | 8 | 20% | Huber / Rio |
+| aikSec05 | 3   | API   | As a user I want my input data to only be visible by me or my supervisors.| The admin UI must allow assigning and modifying roles. Data access is modified by role based permissions. | 21 | 22 | 100% |  Rio |
 
 
 ---
