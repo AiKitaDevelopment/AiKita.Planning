@@ -100,10 +100,10 @@
 ## Reflection from
 | ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
 |---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
-| aikRef01 | 3  | Reflection form     | A a user i want to see my reflection form | Reflection form is accessable from menu.| 5 | 10 | 0% | Rio |
-| aikRef02 | 3  | Reflection form     | A a user i want to reflect on my observations in a seperate form. | Input can be saved on reflection form.| 8 | 15 | 0% | Rio |
-| aikRef03 | 3  | Reflection form   | A a user i want to see my weekly recent reflection form upon loading reflection form. | Wekkly Reflection form is automatically loaded. If no input has been made this week, the form is empty. Changes are tracked.| 5 | 10 | 0% | Rio |
-| aikRef04 | 3  | Reflection form     | A a user i want to add my recent observations to my reflection form | Observations can be automatically added to reflection form.| 5 | 10 | 0% | Rio |
-| aikRef05 | 3  | Reflection form     | A a user i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 0% | Rio |
+| aikRef01 | 3  | Reflection form     | A a user i want to see my reflection form | Reflection form is accessable from menu.| 5 | 10 | 100% | Rio |
+| aikRef02 | 3  | Reflection form     | A a user i want to reflect on my observations in a seperate form. | Input can be saved on reflection form.| 8 | 15 | 100% | Rio |
+| aikRef03 | 3  | Reflection form   | A a user i want to see my weekly recent reflection form upon loading reflection form. | Wekkly Reflection form is automatically loaded. If no input has been made this week, the form is empty. Changes are tracked.| 5 | 10 | 100% | Rio |
+| aikRef04 | 3  | Reflection form     | A a user i want to add my recent observations to my reflection form | Observations can be automatically added to reflection form.| 5 | 10 | 100% | Rio |
+| aikRef05 | 3  | Reflection form     | A a user i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 100% | Rio |
 
 ---
