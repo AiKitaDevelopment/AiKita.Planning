@@ -163,6 +163,33 @@ Total hours worked: 27h
 Total effort: 42
 Velocity: 0,7
 
+
+
+<br> <br>
+## :calendar: Sprint 13
+#### :hourglass: Sprint Duration: November 10 - November 28
+
+:round_pushpin: LLM Prompting verbessert <br>
+:round_pushpin: Weekplanner <br>
+:round_pushpin: Reflection Form <br>
+
+Total hours worked: 73h
+Total effort: 67
+Velocity: 1,1
+
+
+<br> <br>
+## :calendar: Sprint 14
+#### :hourglass: Sprint Duration: Dezember 1 - Dezember 11
+
+:round_pushpin: ML auf Chain Model umgestellt <br>
+:round_pushpin: Role based system und Organzation based authentification <br>
+:round_pushpin: Admin UI <br>
+
+Total hours worked: 47h
+Total effort: 42
+Velocity: 0,7
+
 ---
 Total hours: 320    
 
