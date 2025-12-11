@@ -107,3 +107,13 @@
 | aikRef05 | 3  | Reflection form     | A a user i want to download my reflection form into a pdf file. | Reflection form can be downloaded via "download" button and opens the generated pdf file. | 5 | 10 | 100% | Rio |
 
 ---
+
+## Support
+| ID      | Prio | Epic            | User Story  | COS (Criteria of Satisfaction)  | Effort | Time | Status | Owner |
+|---------|------|-----------------|-------------|---------------------------------|--------|------|--------|-------|
+| aikSup1 | 3  | Login Data   | As a user I want my own login to see my own data. | New users can be created via Admin ui| 5 | 10 | 100% | Rio |
+| aikSup2 | 3  | Support   | As a user I want to get support with any issues that may arise while using the app. |  Support formular is displayed via ticket system through admin ui.
+| 13 | 0 | 0% | Rio |
+| aikSup2 | 3  | Feedback  | As a user I want to give feedback so the app can better fit my needs. |  Feedback formular is handled and can be accessed and managed via admin ui.
+| 8 | 10 | 100% | Rio |
+
