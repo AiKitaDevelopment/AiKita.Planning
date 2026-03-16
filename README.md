@@ -1,31 +1,53 @@
-# AiKita.Planning
+# AiKita Planning Repository
+
+Planning, strategy, and delivery documentation for the practical AiKita project.
 
 ## Project Overview
-This software is designed to support educators in planning educational processes based on children's behavior. By analysing observed behaviors with AI and suggesting matching educational areas, goals, and activities, this software sets itself apart from any other planning software currently available on the market for the pedagogical sector.
+This software is designed to support educators in planning educational processes based on children's behavior. By analyzing observed behaviors with AI and suggesting matching educational areas, goals, and activities, this software sets itself apart from planning software currently available on the market for the pedagogical sector.
+
+## Project Snapshot
+AiKita is an AI-supported planning platform for early childhood education. The system turns pedagogical observations into structured recommendations (educational area, goals, and activity ideas) while keeping data protection, auditability, and daily usability in focus.
+
+This repository is the planning and management companion to the implementation work: product scope, sprint planning, QA targets, velocity tracking, and roadmap decisions.
+
+## Why This Project Matters
+- Reduces documentation overhead for educators by streamlining planning workflows.
+- Supports pedagogical decision-making with a hybrid AI pipeline (deterministic + LLM-assisted).
+- Prioritizes secure handling of sensitive child-related data.
+- Connects product planning with measurable delivery metrics.
 
 ## Collaborators
-- Sarah Rio  
-- Ralph Mann  
-- Jürgen Huber  
+- Sarah Rio
+- Ralph Mann
+- Juergen Huber
 
-# Links
-[Project Proposal](https://github.com/riosarah/AiKita?tab=readme-ov-file)
+## Architecture At A Glance
+```mermaid
+flowchart LR
+    A[Educator/Admin UI] --> B[.NET Backend Orchestrator]
+    B --> C[Python AI Service]
+    C --> D[ML Classifiers]
+    C --> E[LLM Service]
+    C --> F[Vector Store]
+    B --> G[Relational Database]
+```
 
-[User stories](syp/user_stories.md)
-<br><br>
-[Process documentation](syp/ProcessDocumentation.md)
-<br><br>
-[Quality commitment statement](syp/Quality_commitment.md)
-<br><br>
-[Velocity](syp/velocity.md)
-<br><br>
-[Projection](syp/projection.md)
-<br><br>
-[Sprints](syp/sprints_overview.md)
+## Quick Links
+### Project Overview
+- [Detailed project overview](docs/project-overview.md)
+- [Architecture and AI pipeline details](docs/architecture-and-ai.md)
+- [Feature scope and quality goals](docs/feature-scope-and-quality.md)
 
-<br><br>
-# Timeline
+### Planning Artifacts
+- [Project proposal](https://github.com/riosarah/AiKita?tab=readme-ov-file)
+- [User stories](syp/user_stories.md)
+- [Process documentation](syp/ProcessDocumentation.md)
+- [Sprint overview](syp/sprints_overview.md)
+- [Velocity and forecasting](syp/velocity.md)
+- [Projection and roadmap planning](syp/projection.md)
+- [Quality commitment statement](syp/Quality_commitment.md)
 
+## Timeline
 ```mermaid
 gantt
     title AiKita
@@ -61,9 +83,7 @@ gantt
     v1.0 :p16, after p15, 2w
 ```
 
-
-# Techstack
-
+## Techstack (Original Planning Draft)
 ```c
 +-------------------------------------------------------+
 |              Local Desktop Application                |
@@ -134,7 +154,9 @@ gantt
 |  | Admin Interface & Web Frontend (Angular + TypeScript) |  |
 |  +-------------------------------------------------------+  |
 +-------------------------------------------------------------+
-
 ```
+
+## Repository Purpose
+This repository is intentionally focused on planning and delivery transparency for stakeholders, collaborators, and potential employers who want to understand the product direction, technical decisions, and execution discipline behind AiKita.
 
 
